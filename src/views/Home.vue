@@ -3,15 +3,18 @@
     <main>
       <nav-bar></nav-bar>
 
-      <Section id="section-home">
+      <Section id="section-intro">
         <div class="container">
-          <h2>Hello</h2>
+          <h2>Hello!</h2>
           <p>
-            I am Daniel Nonso Chukwurah, A Front-end Engineer based in Lagos, Nigeria. I help brands and organistions
-            build scalable web applications and softwares that are user friendly, accesible, usuable and achieve their
-            goals using the latest technologies.
+            I am <strong>Daniel Nonso Chukwurah</strong>, A Front-end Engineer based in Lagos, Nigeria. I help brands and organistions
+            build scalable web applications and softwares that are user friendly, accesible, usuable and meet their
+            goals using technology.
           </p>
-          <button>Get in Touch</button>
+
+          <div class="text-left">
+             <button>Get in Touch</button>
+          </div>
 
           <!-- <p>
             I'm passionate about building softwares with good user experience, good designs, accessible, test driven and
@@ -24,23 +27,21 @@
       <section id="section-about">
         <p>
           I'm currently a Front-end Engineer at Sidmach Technologies Limited building enterprise web solutions and
-          softwares together with amazing teams for amazing clients. I am a graduate of Agriculture from the University
-          of Benin. I also graduated from the Microsoft AppFactory programme after completing top notch projects.
-
-          As a Front-end Engineer, I'm passionate about building softwares with good user experience, good designs,
-          that's accessible, test driven writing reus
-          writing clean codes to the best of my ability. I also enjoy learning new technologies.
+          softwares together with amazing teams for amazing clients.
 
           I enjoy bridging the gap between engineering and design - combining state-of-the-art
           technical knowledge with a keen eye for design to create a most beautiful product and services. My goal is to
           always build applications that are scalable and efficient under the hood while providing engaging user
           experience.
 
+           As a Front-end Engineer, I'm passionate about building softwares that are accessible, have good user experience, good designs,
+          and test driven.
 
-          When I'm not coding you can find me surfing the internet, playing and watching football, playing video games
-          (FIFA, PES), or hanging out with friends/family.
+
+          When I'm not coding you can find me surfing the internet, playing and watching football, playing video games, farming (Yeah! you heard that) or hanging out with friends and family.
         </p>
-
+        <!-- <p>writing clean codes to the best of my ability. I also enjoy learning new technologies.</p> -->
+      <!-- <p>
         My name is Nenne Adaora Nwodo. I fondly like to be called Adora. I am a Software Engineer based in Lagos,
         Nigeria who loves mobile experiences and artificial intelligence.
 
@@ -59,7 +60,7 @@
         I am also passionate about the developer community and I am trying to drive inclusion for more women in tech.
         Because of this, I co-organize some developer events (e.g. GDG Ajah, FSD Lagos, Android Nigeria), I speak at
         some events as well & I mentor developers through ALC or any other platform that lets me do so.
-
+</p> -->
       </section>
 
       <section class="site-section" id="section-about">
@@ -226,3 +227,25 @@
     }
   }
 </script>
+
+<style scoped>
+#section-intro p{
+  font-size: 2rem;
+  text-align: left;
+  max-width: 700px;
+  line-height: 3.5rem;
+}
+#section-intro h2{
+  margin-top: 4rem;
+  font-size: 2.5rem;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+#section-intro button{
+  text-align: left;
+  font-size: 2rem;
+  margin: 2rem 0rem 3rem 0rem;
+}
+
+</style>

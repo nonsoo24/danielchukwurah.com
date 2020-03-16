@@ -7,8 +7,8 @@
         <div class="container">
           <h2>Hello!</h2>
           <p>
-            I am <strong>Daniel Nonso Chukwurah</strong>, A Front-end Engineer based in Lagos, Nigeria. I help brands and organistions
-            build scalable web applications and softwares that are user friendly, accesible, usuable and meet their
+            I'm <strong>Daniel Nonso Chukwurah</strong>, A Front-end Engineer based in Lagos, Nigeria. I help brands and organistions
+            build scalable web applications and softwares with good user experience that meet their business
             goals using technology.
           </p>
 
@@ -25,45 +25,29 @@
       </Section>
 
       <section id="section-about">
-        <p>
-          I'm currently a Front-end Engineer at Sidmach Technologies Limited building enterprise web solutions and
-          softwares together with amazing teams for amazing clients.
+        <div class="container">
+            <h2>About</h2>
+              <p>
+                I'm currently a Front-end Engineer at Sidmach Technologies Limited building enterprise web solutions and
+                softwares together with amazing teams for amazing clients.
+              </p>
 
-          I enjoy bridging the gap between engineering and design - combining state-of-the-art
-          technical knowledge with a keen eye for design to create a most beautiful product and services. My goal is to
-          always build applications that are scalable and efficient under the hood while providing engaging user
-          experience.
+              <p>
+                I enjoy bridging the gap between engineering and design - combining state-of-the-art
+                technical knowledge with a keen eye for design to create a most beautiful product and services.
 
-           As a Front-end Engineer, I'm passionate about building softwares that are accessible, have good user experience, good designs,
-          and test driven.
+                As a Front-end Engineer, I'm passionate about building softwares that are accessible, have good user experience, good designs,
+                and test driven.
+              </p>
 
-
-          When I'm not coding you can find me surfing the internet, playing and watching football, playing video games, farming (Yeah! you heard that) or hanging out with friends and family.
-        </p>
+              <p>
+                When I'm not coding you can find me surfing the internet, playing and watching football, playing video games, farming (Yeah! you heard that) or hanging out with friends and family.
+              </p>
+        </div>
         <!-- <p>writing clean codes to the best of my ability. I also enjoy learning new technologies.</p> -->
-      <!-- <p>
-        My name is Nenne Adaora Nwodo. I fondly like to be called Adora. I am a Software Engineer based in Lagos,
-        Nigeria who loves mobile experiences and artificial intelligence.
-
-        I currently work as a Software Engineer at the Microsoft Cognition team & I have a Bachelor of Science (First
-        class) in Computer Science from the University of Lagos, Nigeria.
-
-        In October 2018, I created a blog called AdoraHack, where I post software development articles or any tech thing
-        I find interesting. In June 2019, I took AdoraHack to YouTube. On the YouTube channel, I post tutorials and
-        other tech content that could be useful to software developers.
-
-        My non-tech passion includes education & music. I believe everyone should be given a chance at basic education.
-
-        In tech, I am a huge fan of great mobile experiences driven by AI. At a tech event, you'd probably find me in a
-        booth with a VR headset on, or trying to play a game (and possibly failing at it).
-
-        I am also passionate about the developer community and I am trying to drive inclusion for more women in tech.
-        Because of this, I co-organize some developer events (e.g. GDG Ajah, FSD Lagos, Android Nigeria), I speak at
-        some events as well & I mentor developers through ALC or any other platform that lets me do so.
-</p> -->
       </section>
 
-      <section class="site-section" id="section-about">
+      <!-- <section class="site-section" id="section-about">
         <div class="container">
           <div class="row mb-5 align-items-center">
             <div class="col-lg-7 pr-lg-5 mb-5 mb-lg-0 pt-5 pb-5">
@@ -81,22 +65,71 @@
 
               <p>
                 <a class="btn btn-primary px-4 py-2 btn-sm smoothscroll" href="#section-contact">Continue</a>
-                <!-- <a class="btn btn-secondary px-4 py-2 btn-sm" href="#">Certifications</a> -->
+                <a class="btn btn-secondary px-4 py-2 btn-sm" href="#">Certifications</a>
 
               </p>
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
-      <section class="section-skills">
+      <section id="section-skills" class="container">
+        <h2>Skills</h2>
         <p>
           I am proficient in quite some skills and on my way to becoming a professional. Here are a few of the
           technologies I have experience with:
         </p>
+        <div class="skill-category d-flex justify-content-between w-75">
+          <div class="skill-category-label">
+           <div class="text-left text-uppercase font-weight-bolder">Languages</div>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript (ES6)</li>
+              <li>SQL</li>
+              <li>Python</li>
+            </ul>
+          </div>
+
+          <div class="skill-category-label">
+           <div class="text-left text-uppercase font-weight-bolder">Frameworks</div>
+             <ul>
+              <li>Vue</li>
+              <li>Vuetify</li>
+              <li>Node</li>
+              <li>.Net</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+
+          <div class="skill-category-label">
+            <div class="text-left text-uppercase font-weight-bolder">Database</div>
+            <ul>
+              <li>MSSQL</li>
+              <li>MongoDB</li>
+            </ul>
+          </div>
+
+          <div class="skill-category-label">
+            <div class="text-left text-uppercase font-weight-bolder">Tools</div>
+            <ul>
+              <li>Azure DevOps</li>
+              <li>Bash</li>
+              <li>Git & Github</li>
+              <li>Netlify</li>
+              <li>Heroku</li>
+              <li>Chrome DevTools</li>
+            </ul>
+          </div>
+
+        </div>
       </section>
 
-      <section class="site-section" id="section-blog">
+<section id="section-project" class="container">
+  <h2>Projects</h2>
+
+</section>
+      <!-- <section class="site-section" id="section-blog">
         <div class="container">
           <div class="row">
             <div class="col-md-12 mb-5">
@@ -157,7 +190,7 @@
 
           </div>
         </div>
-      </section>
+      </section> -->
 
       <section class="site-section bg-light " id="section-community">
         <div class="container">
@@ -235,7 +268,7 @@
   max-width: 700px;
   line-height: 3.5rem;
 }
-#section-intro h2{
+#section-intro h2, #section-about h2, #section-skills h2, #section-project h2{
   margin-top: 4rem;
   font-size: 2.5rem;
   text-align: left;
@@ -246,6 +279,31 @@
   text-align: left;
   font-size: 2rem;
   margin: 2rem 0rem 3rem 0rem;
+}
+
+#section-about p{
+  font-size: 1.2rem;
+  text-align: left;
+  line-height: 2rem;
+  font-weight: 300;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+li{
+  margin: 3px 3px;
+  font-size: .9rem;
+  text-align: left;
+}
+
+#section-skills p{
+  font-size: 1.2rem;
+  text-align: left;
 }
 
 </style>

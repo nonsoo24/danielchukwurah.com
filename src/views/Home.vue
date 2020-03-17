@@ -7,13 +7,14 @@
         <div class="container">
           <h2>Hello!</h2>
           <p>
-            I'm <strong>Daniel Nonso Chukwurah</strong>, A Front-end Engineer based in Lagos, Nigeria. I help brands and organistions
+            I'm <strong>Daniel Nonso Chukwurah</strong>, A Front-end Engineer based in Lagos, Nigeria. I help brands and
+            organistions
             build scalable web applications and softwares with good user experience that meet their business
             goals using technology.
           </p>
 
           <div class="text-left">
-             <button>Get in Touch</button>
+            <button>Get in Touch</button>
           </div>
 
           <!-- <p>
@@ -26,23 +27,25 @@
 
       <section id="section-about">
         <div class="container">
-            <h2>About</h2>
-              <p>
-                I'm currently a Front-end Engineer at Sidmach Technologies Limited building enterprise web solutions and
-                softwares together with amazing teams for amazing clients.
-              </p>
+          <h2>About</h2>
+          <p>
+            I'm currently a Front-end Engineer at Sidmach Technologies Limited building enterprise web solutions and
+            softwares together with amazing teams for amazing clients.
+          </p>
 
-              <p>
-                I enjoy bridging the gap between engineering and design - combining state-of-the-art
-                technical knowledge with a keen eye for design to create a most beautiful product and services.
+          <p>
+            I enjoy bridging the gap between engineering and design - combining state-of-the-art
+            technical knowledge with a keen eye for design to create a most beautiful product and services.
 
-                As a Front-end Engineer, I'm passionate about building softwares that are accessible, have good user experience, good designs,
-                and test driven.
-              </p>
+            As a Front-end Engineer, I'm passionate about building softwares that are accessible, have good user
+            experience, good designs,
+            and test driven.
+          </p>
 
-              <p>
-                When I'm not coding you can find me surfing the internet, playing and watching football, playing video games, farming (Yeah! you heard that) or hanging out with friends and family.
-              </p>
+          <p>
+            When I'm not coding you can find me surfing the internet, playing and watching football, playing video
+            games, farming (Yeah! you heard that) or hanging out with friends and family.
+          </p>
         </div>
         <!-- <p>writing clean codes to the best of my ability. I also enjoy learning new technologies.</p> -->
       </section>
@@ -81,7 +84,7 @@
         </p>
         <div class="skill-category d-flex justify-content-between w-75">
           <div class="skill-category-label">
-           <div class="text-left text-uppercase font-weight-bolder">Languages</div>
+            <div class="text-left text-uppercase font-weight-bolder">Languages</div>
             <ul>
               <li>HTML</li>
               <li>CSS</li>
@@ -92,8 +95,8 @@
           </div>
 
           <div class="skill-category-label">
-           <div class="text-left text-uppercase font-weight-bolder">Frameworks</div>
-             <ul>
+            <div class="text-left text-uppercase font-weight-bolder">Frameworks</div>
+            <ul>
               <li>Vue</li>
               <li>Vuetify</li>
               <li>Node</li>
@@ -125,10 +128,13 @@
         </div>
       </section>
 
-<section id="section-project" class="container">
-  <h2>Projects</h2>
+      <section id="section-project" class="container">
+        <h2>Projects</h2>
+        <div class="secton-project-body">
 
-</section>
+        </div>
+
+      </section>
       <!-- <section class="site-section" id="section-blog">
         <div class="container">
           <div class="row">
@@ -192,19 +198,19 @@
         </div>
       </section> -->
 
-      <section class="site-section bg-light " id="section-community">
+      <!-- <section class="site-section" id="section-community">
         <div class="container">
           <div class="row">
             <div class="col-md-12 mb-5">
-              <div class="section-heading text-center">
-                <h2> <strong>Community</strong></h2>
+              <div class="section-heading">
+                <h2>Community</h2>
               </div>
             </div>
             <div class="col-md-6">
-              <h2 class="mb-5">Lepsta Developers</h2>
+              <h3 class="mb-5">Lepsta Developers</h3>
               <div class="resume-item mb-4">
                 <span class="date"><span class="icon-calendar"></span> March 2013 - Present</span>
-                <h3>Masteral in Information Technology</h3>
+                <h4>Masteral in Information Technology</h4>
                 <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.
                 </p>
                 <span class="school">New York University</span>
@@ -212,10 +218,10 @@
             </div>
 
             <div class="col-md-6">
-              <h2 class="mb-5">GDG Ajah</h2>
+              <h3 class="mb-5">GDG Ajah</h3>
               <div class="resume-item mb-4">
                 <span class="date"><span class="icon-calendar"></span> March 2013 - Present</span>
-                <h3>Masteral in Information Technology</h3>
+                <h4>Masteral in Information Technology</h4>
                 <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.
                 </p>
                 <span class="school">New York University</span>
@@ -223,27 +229,16 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
 
 
-      <section class="site-section bg-light" id="section-contact">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 mb-5">
-              <div class="section-heading text-center">
-                <h2>Get in <strong>Touch </strong> With Me?</h2>
-              </div>
-            </div>
-
-            <div class="col-md-12 mb-5 mb-md-0 text-center">
+      <section class="site-section container" id="section-contact">
+              <h2>Get in <strong>Touch</strong></h2>
               <p>I am opened to opportunities, collaborations, speaking engagement, developers community work,
-                volunteering and relocation. I am mostly available on <a href="">email</a>, <a href="">twitter</a> and
-                <a href="">LinkedIn</a> . You
-                can
-                send me a message and I’ll reply as soon as possible.</p>
-            </div>
-          </div>
-        </div>
+                volunteering and relocation. I am mostly available on <a href="mailto:daniel.chukwurah@gmail.com" target="_blank" title="Email">email</a>, <a href="https://twitter.com/dani_chuks" target="_blank" title="Twitter">twitter</a> and
+                <a href="https://www.linkedin.com/in/daniel-chukwurah-mcp-543a8b145/" target="_blank" title="LinkedIn">LinkedIn</a>.
+              </p>
+              <p>You can send me a message and I’ll reply as soon as possible.</p>
       </section>
 
     </main>
@@ -261,49 +256,4 @@
   }
 </script>
 
-<style scoped>
-#section-intro p{
-  font-size: 2rem;
-  text-align: left;
-  max-width: 700px;
-  line-height: 3.5rem;
-}
-#section-intro h2, #section-about h2, #section-skills h2, #section-project h2{
-  margin-top: 4rem;
-  font-size: 2.5rem;
-  text-align: left;
-  margin-bottom: 2rem;
-}
-
-#section-intro button{
-  text-align: left;
-  font-size: 2rem;
-  margin: 2rem 0rem 3rem 0rem;
-}
-
-#section-about p{
-  font-size: 1.2rem;
-  text-align: left;
-  line-height: 2rem;
-  font-weight: 300;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    text-align: left;
-}
-
-li{
-  margin: 3px 3px;
-  font-size: .9rem;
-  text-align: left;
-}
-
-#section-skills p{
-  font-size: 1.2rem;
-  text-align: left;
-}
-
-</style>
+<style src="../assets/css/Home.css" scoped></style>

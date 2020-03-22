@@ -1,16 +1,16 @@
 <template>
   <div class="home">
+    <nav-bar></nav-bar>
     <main>
-      <nav-bar></nav-bar>
-
       <Section id="section-intro">
         <div class="container">
           <h2>Hello!</h2>
           <p>
             I'm <strong>Daniel Nonso Chukwurah</strong>, A Front-end Engineer based in Lagos, Nigeria. I help brands and
             organistions
-            build scalable web applications and softwares with good user experience that meet their business
-            goals using technology.
+            build scalable web applications and softwares with good user experience and accessibility that meet their
+            business
+            goals.
           </p>
 
           <div class="text-left">
@@ -101,7 +101,6 @@
               <li>Vuetify</li>
               <li>Node</li>
               <li>.Net</li>
-              <li>SQL</li>
             </ul>
           </div>
 
@@ -130,11 +129,170 @@
 
       <section id="section-project" class="container">
         <h2>Projects</h2>
-        <div class="secton-project-body">
+        <div class="project">
+            <ul class="project-list flex-row d-flex">
+          <li class="project-card card flex-row flex-grow shadow-lg rounded">
+            <div class="project-content flex-row flex-grow">
+              <a class="project-link flex-grow" href="https://bizkit.com.ng/" target="_blank">
+                <div class="flex-row d-flex">
+                  <div><img src="../assets/Img/iGofer.png" alt="iGofer-logo"></div>
+                    <div class="project-details">
+                      <h3 class="text-left project-title">Bizkit</h3>
+                      <p class="text-left project-description">An SME software that offers SME Owners and Managers a
+                        seamless approach to
+                        handling
+                        Accounting, Inventory, Payroll and Invoicing.
+                      </p>
 
+                      <div>
+                        <ul class="project-language d-flex">
+                          <li>Javascript</li>
+                          <li>.Net</li>
+                          <li>C#</li>
+                          <li>Vue Js</li>
+                          <li>MSSQL</li>
+                        </ul>
+                      </div>
+                    </div>
+                </div>
+              </a>
+            </div>
+          </li>
+
+          <li class="project-card card flex-row flex-grow">
+            <div class="project-content flex-row flex-grow">
+              <a class="project-link flex-grow" href="https://bizkit.com.ng/" target="_blank">
+                <div class="flex-row d-flex">
+                  <div><img src="../assets/Img/iGofer.png" alt="iGofer-logo"></div>
+                    <div class="project-details">
+                      <h3 class="text-left project-title">Bizkit</h3>
+                      <p class="text-left project-description">An SME software that offers SME Owners and Managers a
+                        seamless approach to
+                        handling
+                        Accounting, Inventory, Payroll and Invoicing.
+                      </p>
+
+                      <div>
+                        <ul class="project-language d-flex">
+                          <li>Javascript</li>
+                          <li>.Net</li>
+                          <li>C#</li>
+                          <li>Vue Js</li>
+                          <li>MSSQL</li>
+                        </ul>
+                      </div>
+                    </div>
+                </div>
+              </a>
+            </div>
+          </li>
+
+          <li class="project-card card flex-row flex-grow">
+            <div class="project-content flex-row flex-grow">
+              <a class="project-link flex-grow" href="https://bizkit.com.ng/" target="_blank">
+                <div class="flex-row d-flex">
+                  <div><img src="../assets/Img/iGofer.png" alt="iGofer-logo"></div>
+                    <div class="project-details">
+                      <h3 class="text-left project-title">Bizkit</h3>
+                      <p class="text-left project-description">An SME software that offers SME Owners and Managers a
+                        seamless approach to
+                        handling
+                        Accounting, Inventory, Payroll and Invoicing.
+                      </p>
+
+                      <div>
+                        <ul class="project-language d-flex">
+                          <li>Javascript</li>
+                          <li>.Net</li>
+                          <li>C#</li>
+                          <li>Vue Js</li>
+                          <li>MSSQL</li>
+                        </ul>
+                      </div>
+                    </div>
+                </div>
+              </a>
+            </div>
+          </li>
+
+          <li class="project-card card flex-row flex-grow">
+            <div class="project-content flex-row flex-grow">
+              <a class="project-link flex-grow" href="https://bizkit.com.ng/" target="_blank">
+                <div class="flex-row d-flex">
+                  <div><img src="../assets/Img/iGofer.png" alt="iGofer-logo"></div>
+                    <div class="project-details">
+                      <h3 class="text-left project-title">Bizkit</h3>
+                      <p class="text-left project-description">An SME software that offers SME Owners and Managers a
+                        seamless approach to
+                        handling
+                        Accounting, Inventory, Payroll and Invoicing.
+                      </p>
+
+                      <div>
+                        <ul class="project-language d-flex">
+                          <li>Javascript</li>
+                          <li>.Net</li>
+                          <li>C#</li>
+                          <li>Vue Js</li>
+                          <li>MSSQL</li>
+                        </ul>
+                      </div>
+                    </div>
+                </div>
+              </a>
+            </div>
+          </li>
+        </ul>
         </div>
+      
+        <!-- <div class="project-card flex-row flex-grow d-flex">
+          <a href="https://igofer-app.herokuapp.com" target="_blank">
+            <div class="card">
+              <h3 class="text-left">iGofer</h3>
+              <p class="text-left">A market place that connects individuals to vetted and professional handy
+                men/artisans
+              </p>
+              <ul>
+                <li>Javascript</li>
+                <li>Vue Js</li>
+                <li>Node</li>
+              </ul>
+            </div>
+          </a>
+
+
+          <a href="https://eagriculture360.azurewebsites.net/" target="_blank">
+            <div class="card">
+              <h3 class="text-left">e-Agric360</h3>
+              <p class="text-left">A platform that helps links investors to verified farmers </p>
+              <ul>
+                <li>Javascript</li>
+                <li>.Net</li>
+                <li>MSSQL</li>
+              </ul>
+            </div>
+          </a>
+
+          <a href="https://waechris.azurewebsites.net/">
+            <div class="card">
+              <h3 class="text-left">WAEC HR Platform</h3>
+              <p class="text-left">A Platform that automates employee management </p>
+              <ul>
+                <li>Javascript</li>
+                <li>.Net</li>
+                <li>C#</li>
+                <li>MSSQL</li>
+              </ul>
+            </div>
+          </a>
+
+        </div> -->
 
       </section>
+
+
+
+
       <!-- <section class="site-section" id="section-blog">
         <div class="container">
           <div class="row">
@@ -233,25 +391,31 @@
 
 
       <section class="site-section container" id="section-contact">
-              <h2>Get in <strong>Touch</strong></h2>
-              <p>I am opened to opportunities, collaborations, speaking engagement, developers community work,
-                volunteering and relocation. I am mostly available on <a href="mailto:daniel.chukwurah@gmail.com" target="_blank" title="Email">email</a>, <a href="https://twitter.com/dani_chuks" target="_blank" title="Twitter">twitter</a> and
-                <a href="https://www.linkedin.com/in/daniel-chukwurah-mcp-543a8b145/" target="_blank" title="LinkedIn">LinkedIn</a>.
-              </p>
-              <p>You can send me a message and I’ll reply as soon as possible.</p>
+        <h2>Get in <strong>Touch</strong></h2>
+        <p>I am opened to opportunities, collaborations, speaking engagement, developers community work,
+          volunteering and relocation. I am mostly available on <a href="mailto:daniel.chukwurah@gmail.com"
+            target="_blank" title="Email">email</a>, <a href="https://twitter.com/dani_chuks" target="_blank"
+            title="Twitter">twitter</a> and
+          <a href="https://www.linkedin.com/in/daniel-chukwurah-mcp-543a8b145/" target="_blank"
+            title="LinkedIn">LinkedIn</a>.
+        </p>
+        <p>You can send me a message and I’ll reply as soon as possible.</p>
       </section>
 
     </main>
+   <the-footer></the-footer>
   </div>
 </template>
 <script>
   // @ is an alias to /src
   import NavBar from '@/components/NavBar.vue'
+  import Footer from '@/components/Footer.vue'
 
   export default {
     name: 'navbar',
     components: {
       'nav-bar': NavBar,
+      'the-footer': Footer
     }
   }
 </script>

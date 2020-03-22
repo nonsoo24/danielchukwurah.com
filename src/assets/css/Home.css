@@ -1,4 +1,107 @@
-#section-intro p {
+* body{
+  background-color: #E9E9E9;
+}
+
+@media (min-width: 640px) {
+  #section-intro p {
+    font-size: 1rem;
+    text-align: left;
+    max-width: 400px;
+    line-height: 2.5rem;
+  }
+
+  h2 {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+
+  #section-intro button {
+    text-align: left;
+    font-size: 1.5rem;
+    margin: 2rem 0rem 3rem 0rem;
+  }
+
+  #section-about p {
+    font-size: 1.2rem;
+    text-align: left;
+    line-height: 2rem;
+    font-weight: 300;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+
+  li {
+    margin: 3px 3px;
+    font-size: 0.3rem;
+    text-align: left;
+  }
+
+  #section-skills p,
+  #section-contact p {
+    font-size: 1.2rem;
+    text-align: left;
+  }
+
+}
+
+@media (min-width: 768px) {
+  #section-intro p {
+    font-size: 1.4rem;
+    text-align: left;
+    max-width: 500px;
+    line-height: 2.5rem;
+  }
+
+  h2 {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    text-align: left;
+    margin-bottom: 1.5rem;
+  }
+
+  #section-intro button {
+    text-align: left;
+    font-size: 2rem;
+    margin: 2rem 0rem 3rem 0rem;
+  }
+
+  #section-about p {
+    font-size: 1.2rem;
+    text-align: left;
+    line-height: 2rem;
+    font-weight: 300;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+
+  li {
+    margin: 3px 3px;
+    font-size: .9rem;
+    text-align: left;
+  }
+
+  #section-skills p,
+  #section-contact p {
+    font-size: 1.2rem;
+    text-align: left;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  #section-intro p {
     font-size: 2rem;
     text-align: left;
     max-width: 700px;
@@ -43,3 +146,147 @@
     font-size: 1.2rem;
     text-align: left;
   }
+
+}
+
+@media (min-width: 1280px) {
+  #section-intro p {
+    font-size: 2rem;
+    text-align: left;
+    max-width: 700px;
+    line-height: 3.5rem;
+  }
+
+  h2 {
+    margin-top: 4rem;
+    font-size: 2.5rem;
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+
+  #section-intro button {
+    text-align: left;
+    font-size: 2rem;
+    margin: 2rem 0rem 3rem 0rem;
+  }
+
+  #section-about p {
+    font-size: 1.2rem;
+    text-align: left;
+    line-height: 2rem;
+    font-weight: 300;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+
+  li {
+    margin: 3px 3px;
+    font-size: .9rem;
+    text-align: left;
+  }
+
+  #section-skills p,
+  #section-contact p {
+    font-size: 1.2rem;
+    text-align: left;
+  }
+
+}
+
+.project{
+  min-width: 200px
+}
+
+.project-list li{
+    margin-bottom: 20px;
+    margin-top: 0;
+    list-style: none;
+}
+
+.project-list .project-card .top-row {
+  overflow: hidden;
+}
+
+.project-list .project-card .project-link {
+  overflow: hidden;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.project-list .project-card .project-details {
+  margin-left: 12px;
+  overflow: hidden;
+}
+
+.project-list .project-card .project-description {
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  overflow: hidden;
+  color: rgba(0,0,0,.55);
+  color: var(--text-secondary-color,rgba(0, 0, 0, .55));
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  line-height: 20px;
+  max-height: 80px;
+}
+
+.project-list .project-card .project-name {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-bottom: 8px;
+}
+
+
+/* .vss-Persona.large {
+    width: 48px;
+    height: 48px;
+} */
+
+
+.project-card .project-link:visited {
+  color: rgba(0,0,0,.9);
+  /* color: var(--text-primary-color,rgba(0, 0, 0, .9)); */
+  text-decoration: none;
+}
+.project-link:hover{
+  text-decoration: none;
+}
+
+.project-card{
+    position: relative;
+    transition: background-color .5s ease;
+    border-radius: 4px;
+    height: 220px;
+    min-width: 300px;
+    /* flex-basis: 300px; */
+    margin-right: 20px;
+    overflow: hidden;
+}
+/* .project-list .project-card{
+  flex-grow: 1;
+} */
+
+.project-content {
+  overflow: hidden;
+  padding: 5px;
+}
+
+.project-list img{
+  width: 40px;
+  height: 40px;
+}
+
+.project-language li{
+  list-style-type: none;
+  border: 2px solid #000;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 0px 1.5px;
+
+}

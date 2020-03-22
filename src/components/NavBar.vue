@@ -1,6 +1,6 @@
 <template>
     <div>
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <!-- <a class="navbar-brand" href="#">Navbar</a> -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,14 +15,14 @@
                         <a class="nav-link" href="#section-about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#section-community">Community</a>
+                        <a class="nav-link" href="#section-skills">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#section-portfolio">Portfolio</a>
+                        <a class="nav-link" href="#section-project">Project</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="#section-hackaton">Hackathon</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="#section-blog">Blog</a>
                     </li>

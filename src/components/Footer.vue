@@ -3,7 +3,7 @@
         <footer>
              <hr>
                 <div>
-                    <p class="text-center">&copy; 2019 Daniel Chukwurah | All rights reserved.</p>
+                    <p class="text-center">&copy; 2020 Daniel Chukwurah | All rights reserved.</p>
                 </div>
         </footer>
     </div>

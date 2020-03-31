@@ -29,4 +29,10 @@
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 </style>

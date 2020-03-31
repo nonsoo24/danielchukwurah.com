@@ -8,13 +8,13 @@
           <p>
             I'm <strong>Daniel Nonso Chukwurah</strong>, A Front-end Engineer based in Lagos, Nigeria. I help brands and
             organistions
-            build scalable web applications and softwares with good user experience and accessibility that meet their
+            build scalable web applications and softwares with good user experience and accessibility that meets their
             business
             goals.
           </p>
 
           <div class="text-left">
-            <button>Get in Touch</button>
+            <button @click="getInTouch()">Get in Touch</button>
           </div>
 
           <!-- <p>
@@ -30,13 +30,15 @@
           <h2>About</h2>
           <p>
             I'm currently a Front-end Engineer at Sidmach Technologies Limited building enterprise web solutions and
-            softwares together with amazing teams for amazing clients.
+            softwares together with amazing teams for clients.
+          </p>
+
+          <p class="d-none">
+            I enjoy bridging the gap between engineering and design - combining state-of-the-art
+            technical knowledge with a keen eye for design to create a most beautiful product and services.
           </p>
 
           <p>
-            I enjoy bridging the gap between engineering and design - combining state-of-the-art
-            technical knowledge with a keen eye for design to create a most beautiful product and services.
-
             As a Front-end Engineer, I'm passionate about building softwares that are accessible, have good user
             experience, good designs,
             and test driven.
@@ -46,6 +48,20 @@
             When I'm not coding you can find me surfing the internet, playing and watching football, playing video
             games, farming (Yeah! you heard that) or hanging out with friends and family.
           </p>
+
+          <h5 class="text-left font-weight-bolder">Certifications</h5>
+            <ul class="certification-list">
+              <li>
+                <a href="https://www.youracclaim.com/badges/2e7a7211-3f09-486e-a1a9-d33d12c5b00d/linked_in_profile">Azure Fundamentals</a>
+              </li>
+              <li>
+                <a href="https://www.youracclaim.com/badges/5b6a9903-f835-4832-a1bf-a10d28cd2c4d/linked_in_profile">Exam 480: Programming in HTML5 with JavaScript and CSS3</a>
+              </li>
+
+              <li>
+                <a href="https://www.credential.net/58d95e1d-acc4-4b69-a73c-9452b50f8950?username=danielchukwurah">Leadership and Team building</a>
+              </li>
+            </ul>
         </div>
         <!-- <p>writing clean codes to the best of my ability. I also enjoy learning new technologies.</p> -->
       </section>
@@ -79,9 +95,11 @@
       <section id="section-skills" class="container">
         <h2>Skills</h2>
         <p>
-          I am proficient in quite some skills and on my way to becoming a professional. Here are a few of the
-          technologies I have experience with:
+          I am proficient in some skills and on my way to becoming an expert. Here are some of the
+          technologies I have worked with:
         </p>
+
+
         <div class="skill-category d-flex justify-content-between w-75">
           <div class="skill-category-label">
             <div class="text-left text-uppercase font-weight-bolder">Languages</div>
@@ -130,16 +148,103 @@
       <section id="section-project" class="container">
         <h2>Projects</h2>
         <div class="project">
-            <ul class="project-list flex-row d-flex">
-          <li class="project-card card flex-row flex-grow shadow-lg rounded">
-            <div class="project-content flex-row flex-grow">
-              <a class="project-link flex-grow" href="https://bizkit.com.ng/" target="_blank">
-                <div class="flex-row d-flex">
-                  <div><img src="../assets/Img/iGofer.png" alt="iGofer-logo"></div>
+           <div class="row">
+                <div class="col-12 col-lg-4">
+                     <a class="project-link" href="https://bizkit.com.ng/" target="_blank">
+                    <div class="card features">
+                        <div class="card-body">
+                            <div class="media">
+                                <span class=" mr-3"><img src="../assets/Img/Bizkit.png" alt="iGofer-logo"></span>
+
+                                <div class="media-body">
+                                    <h4 class="card-title text-left">Bizkit</h4>
+                                    <p class="card-text text-left">A platform that offers SME Owners       and Managers a
+                                      seamless approach in
+                                      handling
+                                      Accounting, Inventory, Payroll and Invoicing. 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     </a>
+                </div>
+
+
+                <div class="col-12 col-lg-4">
+                   <a class="project-link flex-grow" href="https://igofer-app.herokuapp.com" target="_blank">
+                    <div class="card features">
+                        <div class="card-body">
+                            <div class="media">
+                                <span class="mr-3"><img src="../assets/Img/iGofer.png" alt="iGofer-logo"></span>
+                                <div class="media-body">
+                                    <h4 class="card-title text-left">iGofer</h4>
+                                    <p class="card-text text-left">A market place that connects individuals to vetted and professional handy</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   </a>
+                </div>
+
+                <div class="col-12 col-lg-4">
+                    <div class="card features">
+                       <a class="project-link" href="https://waechris.azurewebsites.net" target="_blank">
+                        <div class="card-body">
+                            <div class="media">
+                                <span class="mr-3"><img src="../assets/Img/waec-logo.png" alt="WAEC-logo"></span>
+                                <div class="media-body">
+                                    <h4 class="card-title text-left">WAEC HRIS</h4>
+                                    <p class="card-text text-left">A Platform that automates employee management processes</p>
+                                </div>
+                            </div>
+                        </div>
+                       </a>
+                    </div>
+                </div>
+                 <div class="col-12 col-lg-4">
+                    <a class="project-link" href="https://eagriculture360.azurewebsites.net/" target="_blank">
+                    <div class="card features">
+                        <div class="card-body">
+                            <div class="media">
+                                <span class="mr-3"><img src="../assets/Img/e-agric360.svg" alt="iGofer-logo"></span>
+                                <div class="media-body">
+                                    <h4 class="card-title text-left">e-Agric360</h4>
+                                    <p class="card-text text-left">A platform that links verified Farmers to loans, credit facilities and market place</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+
+                 <div class="col-12 col-lg-4">
+                    <a class="project-link" href="https://mobileinsure.azurewebsites.net" target="_blank">
+                    <div class="card features">
+                        <div class="card-body">
+                            <div class="media">
+                                <span class="mr-3"><img src="../assets/Img/e-agric360.svg" alt="CinchIT-logo"></span>
+                                <div class="media-body">
+                                    <h4 class="card-title text-left">Cinch IT</h4>
+                                    <p class="card-text text-left">A platform that links Phone buyers to Insurance companies</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+
+          <!-- <ul class="project-list d-flex justify-content-around">
+            <li class="project-card card flex-row shadow rounded">
+              <div class="project-content flex-row">
+                <a class="project-link" href="https://bizkit.com.ng/" target="_blank">
+                  <div class="flex-row d-flex">
+                    <div><img src="../assets/Img/Bizkit.png" alt="iGofer-logo"></div>
                     <div class="project-details">
                       <h3 class="text-left project-title">Bizkit</h3>
-                      <p class="text-left project-description">An SME software that offers SME Owners and Managers a
-                        seamless approach to
+                      <p class="text-left project-description">A platform that offers SME Owners and Managers a
+                        seamless approach in
                         handling
                         Accounting, Inventory, Payroll and Invoicing.
                       </p>
@@ -153,141 +258,139 @@
                           <li>MSSQL</li>
                         </ul>
                       </div>
-                    </div>
-                </div>
-              </a>
-            </div>
-          </li>
-
-          <li class="project-card card flex-row flex-grow">
-            <div class="project-content flex-row flex-grow">
-              <a class="project-link flex-grow" href="https://bizkit.com.ng/" target="_blank">
-                <div class="flex-row d-flex">
-                  <div><img src="../assets/Img/iGofer.png" alt="iGofer-logo"></div>
-                    <div class="project-details">
-                      <h3 class="text-left project-title">Bizkit</h3>
-                      <p class="text-left project-description">An SME software that offers SME Owners and Managers a
-                        seamless approach to
-                        handling
-                        Accounting, Inventory, Payroll and Invoicing.
-                      </p>
-
                       <div>
-                        <ul class="project-language d-flex">
-                          <li>Javascript</li>
-                          <li>.Net</li>
-                          <li>C#</li>
-                          <li>Vue Js</li>
-                          <li>MSSQL</li>
-                        </ul>
                       </div>
                     </div>
-                </div>
-              </a>
-            </div>
-          </li>
+                  </div>
+                </a>
+              </div>
+            </li>
 
-          <li class="project-card card flex-row flex-grow">
-            <div class="project-content flex-row flex-grow">
-              <a class="project-link flex-grow" href="https://bizkit.com.ng/" target="_blank">
-                <div class="flex-row d-flex">
-                  <div><img src="../assets/Img/iGofer.png" alt="iGofer-logo"></div>
+            <li class="project-card card flex-row shadow rounded">
+              <div class="project-content flex-row">
+                <a class="project-link flex-grow" href="https://igofer-app.herokuapp.com" target="_blank">
+                  <div class="flex-row d-flex">
+                    <div><img src="../assets/Img/iGofer.png" alt="iGofer-logo"></div>
                     <div class="project-details">
-                      <h3 class="text-left project-title">Bizkit</h3>
-                      <p class="text-left project-description">An SME software that offers SME Owners and Managers a
-                        seamless approach to
-                        handling
-                        Accounting, Inventory, Payroll and Invoicing.
-                      </p>
-
-                      <div>
-                        <ul class="project-language d-flex">
-                          <li>Javascript</li>
-                          <li>.Net</li>
-                          <li>C#</li>
-                          <li>Vue Js</li>
-                          <li>MSSQL</li>
-                        </ul>
-                      </div>
-                    </div>
-                </div>
-              </a>
-            </div>
-          </li>
-
-          <li class="project-card card flex-row flex-grow">
-            <div class="project-content flex-row flex-grow">
-              <a class="project-link flex-grow" href="https://bizkit.com.ng/" target="_blank">
-                <div class="flex-row d-flex">
-                  <div><img src="../assets/Img/iGofer.png" alt="iGofer-logo"></div>
-                    <div class="project-details">
-                      <h3 class="text-left project-title">Bizkit</h3>
-                      <p class="text-left project-description">An SME software that offers SME Owners and Managers a
-                        seamless approach to
-                        handling
-                        Accounting, Inventory, Payroll and Invoicing.
-                      </p>
-
-                      <div>
-                        <ul class="project-language d-flex">
-                          <li>Javascript</li>
-                          <li>.Net</li>
-                          <li>C#</li>
-                          <li>Vue Js</li>
-                          <li>MSSQL</li>
-                        </ul>
-                      </div>
-                    </div>
-                </div>
-              </a>
-            </div>
-          </li>
-        </ul>
-        </div>
-      
-        <!-- <div class="project-card flex-row flex-grow d-flex">
-          <a href="https://igofer-app.herokuapp.com" target="_blank">
-            <div class="card">
-              <h3 class="text-left">iGofer</h3>
-              <p class="text-left">A market place that connects individuals to vetted and professional handy
+                      <h3 class="text-left project-title">iGofer</h3>
+                      <p class="text-left project-description">A market place that connects individuals to vetted and professional handy
                 men/artisans
-              </p>
-              <ul>
-                <li>Javascript</li>
-                <li>Vue Js</li>
-                <li>Node</li>
-              </ul>
-            </div>
-          </a>
+                      </p>
 
+                      <div>
+                        <ul class="project-language d-flex">
+                          <li>Javascript</li>
+                          <li>Vue Js</li>
+                          <li>Node</li>
+                          <li>MongoDB</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </li>
 
-          <a href="https://eagriculture360.azurewebsites.net/" target="_blank">
-            <div class="card">
-              <h3 class="text-left">e-Agric360</h3>
-              <p class="text-left">A platform that helps links investors to verified farmers </p>
-              <ul>
-                <li>Javascript</li>
-                <li>.Net</li>
-                <li>MSSQL</li>
-              </ul>
-            </div>
-          </a>
+            <li class="project-card card flex-row shadow rounded">
+              <div class="project-content flex-row">
+                <a class="project-link" href="https://waechris.azurewebsites.net/" target="_blank">
+                  <div class="flex-row d-flex">
+                    <div><img src="../assets/Img/waec-logo.png" alt="iGofer-logo"></div>
+                    <div class="project-details">
+                      <h3 class="text-left project-title">WAEC HR</h3>
+                      <p class="text-left project-description">A Platform that automates employee management processes
+                      </p>
 
-          <a href="https://waechris.azurewebsites.net/">
-            <div class="card">
-              <h3 class="text-left">WAEC HR Platform</h3>
-              <p class="text-left">A Platform that automates employee management </p>
-              <ul>
-                <li>Javascript</li>
-                <li>.Net</li>
-                <li>C#</li>
-                <li>MSSQL</li>
-              </ul>
-            </div>
-          </a>
+                      <div>
+                        <ul class="project-language d-flex">
+                          <li>Javascript</li>
+                          <li>.Net</li>
+                          <li>C#</li>
+                          <li>MSSQL</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </li>
+          </ul>
 
-        </div> -->
+          <ul class=" project-list d-flex justify-content-around">
+              <li class="project-card card shadow rounded">
+                <div class="project-content flex-row">
+                  <a class="project-link" href="https://mobileinsure.azurewebsites.net" target="_blank">
+                    <div class="flex-row d-flex">
+                      <div><img src="../assets/Img/e-agric360.svg" alt="iGofer-logo"></div>
+                      <div class="project-details">
+                        <h3 class="text-left project-title">Cinch IT</h3>
+                        <p class="text-left project-description">A platform that links Phone buyers to Insurance companies
+                        </p>
 
+                        <div>
+                          <ul class="project-language d-flex">
+                            <li>Javascript</li>
+                            <li>.Net</li>
+                            <li>MSSQL</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </li>
+
+              <li class="project-card card shadow rounded">
+                <div class="project-content flex-row">
+                  <a class="project-link" href="https://eagriculture360.azurewebsites.net/" target="_blank">
+                    <div class="flex-row d-flex">
+                      <div><img src="../assets/Img/e-agric360.svg" alt="iGofer-logo"></div>
+                      <div class="project-details">
+                        <h3 class="text-left project-title">e-Agric360</h3>
+                        <p class="text-left project-description">A platform that links verified Farmers to loans, credit facilities and market place
+                        </p>
+
+                        <div>
+                          <ul class="project-language d-flex">
+                            <li>Javascript</li>
+                            <li>.Net</li>
+                            <li>C#</li>
+                            <li>Vue Js</li>
+                            <li>MSSQL</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </li>
+
+              <li class="project-card card shadow rounded">
+                <div class="project-content flex-row">
+                  <a class="project-link" href="https://eagriculture360.azurewebsites.net/" target="_blank">
+                    <div class="flex-row d-flex">
+                      <div><img src="../assets/Img/e-agric360.svg" alt="iGofer-logo"></div>
+                      <div class="project-details">
+                        <h3 class="text-left project-title">e-Agric360</h3>
+                        <p class="text-left project-description">A platform that links verified Farmers to loans, credit facilities and market place
+                        </p>
+
+                        <div>
+                          <ul class="project-language d-flex">
+                            <li>Javascript</li>
+                            <li>.Net</li>
+                            <li>C#</li>
+                            <li>Vue Js</li>
+                            <li>MSSQL</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </li>
+          </ul> -->
+        </div>
       </section>
 
 
@@ -390,7 +493,7 @@
       </section> -->
 
 
-      <section class="site-section container" id="section-contact">
+      <section class="site-section container mb-5" id="section-contact">
         <h2>Get in <strong>Touch</strong></h2>
         <p>I am opened to opportunities, collaborations, speaking engagement, developers community work,
           volunteering and relocation. I am mostly available on <a href="mailto:daniel.chukwurah@gmail.com"
@@ -403,21 +506,38 @@
       </section>
 
     </main>
-   <the-footer></the-footer>
+    <the-footer></the-footer>
   </div>
 </template>
 <script>
   // @ is an alias to /src
   import NavBar from '@/components/NavBar.vue'
   import Footer from '@/components/Footer.vue'
+export default {
+  data() {
+      return {}
+    },
+    // name: 'navbar',
+    methods: {
+      getInTouch() {
+        window.location = "#section-contact"
+      },
 
-  export default {
-    name: 'navbar',
+      mouseOver() {
+         let projectDivHover = document.querySelector(".project-language").addEventListener("mouseover", mouseOver);
+
+         let projectDivHoverOut = document.querySelector(".project-language").addEventListener("mouseout", mouseOut);
+
+          document.getElementById("demo").style.color = "black";
+        }
+
+    },
     components: {
       'nav-bar': NavBar,
       'the-footer': Footer
     }
   }
+
 </script>
 
 <style src="../assets/css/Home.css" scoped></style>

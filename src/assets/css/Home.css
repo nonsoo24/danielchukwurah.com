@@ -338,3 +338,13 @@
 .card {
   margin-top: 30px;
 }
+
+/* Social media icons */
+.social-media a{
+  text-decoration: none;
+  color: none;
+}
+
+[class^="ti-"], [class*=" ti-"] {
+  font-size: 25px;
+}

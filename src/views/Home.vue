@@ -161,7 +161,7 @@
                                     <p class="card-text text-left">A platform that offers SME Owners       and Managers a
                                       seamless approach in
                                       handling
-                                      Accounting, Inventory, Payroll and Invoicing. 
+                                      Accounting, Inventory, Payroll and Invoicing.
                                     </p>
                                 </div>
                             </div>
@@ -502,7 +502,35 @@
           <a href="https://www.linkedin.com/in/daniel-chukwurah-mcp-543a8b145/" target="_blank"
             title="LinkedIn">LinkedIn</a>.
         </p>
-        <p>You can send me a message and I’ll reply as soon as possible.</p>
+        <p>
+          You can send me a message and I’ll reply as soon as  possible.
+        </p>
+
+        <!-- social media icons -->
+       <div class="social-media mt-5">
+          <p class="text-center">Say hi anytime ―</p>
+            <a href="https://web.facebook.com/nonsochukwura">
+              <span class="ti-facebook mr-3 ti-3x"> </span>
+            </a>
+
+            <a href="https://www.instagram.com/danielchukwura/?hl=en">
+              <span class="ti-instagram mr-3 ti-3x"></span>
+            </a>
+
+
+              <a href="https://twitter.com/dani_chuks"><span class="ti-twitter-alt mr-3 ti-3x"> </span></a>
+
+
+              <a href="https://www.linkedin.com/in/daniel-chukwurah-mcp-543a8b145/">
+              <span class="ti-linkedin mr-3 ti-3x"></span>
+              </a>
+
+
+              <a href="https://github.com/nonsoo24/">
+              <span class="ti-github mr-3 ti-3x"></span>
+              </a>
+
+        </div>
       </section>
 
     </main>

@@ -13,12 +13,17 @@
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  color: #000;
+   /* background-color: #E9E9E9; */
+  /* background-color: #f3f7f9 !important; */
 }
 
+/* .navbar, .navbar-toggler{
+  background-color: #E9E9E9;
+} */
 #nav {
   padding: 30px;
+
 }
 
 #nav a {
@@ -33,6 +38,10 @@
 body {
   max-width: 100%;
   overflow-x: hidden;
+}
+
+body html{
+   background-color: #f3f7f9 !important;
 }
 
 </style>

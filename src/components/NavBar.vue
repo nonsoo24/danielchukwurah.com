@@ -29,8 +29,17 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#section-contact">Contact</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link ti-shine" href=""></a>
+                    </li>
                 </ul>
             </div>
         </nav>
     </div>
 </template>
+
+<style scoped>
+    .ti-shine {
+        font-size: 25px;
+    }
+</style>

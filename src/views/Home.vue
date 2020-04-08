@@ -6,8 +6,8 @@
 
     <!-- Introduction Section -->
       <Section id="section-intro">
-        <div class="container">
-          <h1>Hello!</h1>
+        <div class="container  mb-4">
+          <h1>Hello! 👋</h1>
           <p>
             I'm <strong>Daniel Nonso Chukwurah</strong>, A Front-end Engineer based in Lagos, Nigeria. I help brands and
             organistions
@@ -50,16 +50,16 @@
 
           <p>
             When I'm not coding you can find me surfing the internet, playing and watching football, playing video
-            games, farming (Yeah! you heard that) or hanging out with friends and family.
+            games, or hanging out with friends and family.
           </p>
 
           <!-- certifications -->
-          <h5>Certifications</h5>
+          <!-- <h5>Certifications</h5>
           <ul class="certification-list">
             <li v-for="(certification, i) in certifications" :key="i">
               <a :href= certification.link> <span class="ti-control-forward mr-3"></span> {{certification.name}}</a>
             </li>
-          </ul>
+          </ul> -->
         </div>
         <!-- <p>writing clean codes to the best of my ability. I also enjoy learning new technologies.</p> -->
       </section>
@@ -124,7 +124,7 @@
         <div class="project">
           <div class="row">
              <div class="col-12 col-lg-4" v-for="(project, i) in projects" :key="i" >
-              <a class="project-link" :href= project.href target="_blank">
+              <a class="project-link" :href= project.link target="_blank">
                 <div class="card features">
                   <div class="card-body">
                     <div class="media">
@@ -550,8 +550,8 @@
   // @ is an alias to /src
   import NavBar from '@/components/NavBar.vue'
   import Footer from '@/components/Footer.vue'
-  import {projectList} from '../components/Api/Project.js'
-  import {certificationList} from '../components/Api/Project.js'
+  import {projectList} from '../components/Data/Project.js'
+  // import {certificationList} from '../components/Api/Project.js'
 export default {
   data() {
       return {

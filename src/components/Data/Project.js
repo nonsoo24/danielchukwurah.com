@@ -5,9 +5,9 @@ export const projectList = [
         title:  'Bizkit',
         image:   require('../../assets/Img/Bizkit.png'),
         alt:    'Bizkit-logo',
-        href:   'https://bizkit.com.ng/',
+        link:   'https://bizkit.com.ng/',
         description: 'A platform that offers SME Owners and Managers a seamless approach in   handling Accounting, Inventory, Payroll and Invoicing.',
-        // language: ['HTML5', 'Javascript', 'CSS3']
+        language: ['HTML5', 'Javascript', 'CSS3']
     },
 
     {
@@ -15,7 +15,7 @@ export const projectList = [
         title: 'iGofer',
         image: require('../../assets/Img/iGofer.png'),
         alt:    'iGofer-logo',
-        href:   'https://igofer-app.herokuapp.com',
+        link:   'https://igofer-app.herokuapp.com',
         description: 'A market place that connects individuals, businesses and organisations to vetted and qualified handy men.'
     },
 
@@ -24,8 +24,8 @@ export const projectList = [
         title: 'WAEC HRIS',
         image: require('../../assets/Img/waec-logo.png'),
         alt:   'WAEC-logo',
-        href:  'https://waechris.azurewebsites.net',
-        description: 'A Platform that automates employee management processes'
+        link:  'https://waechris.azurewebsites.net',
+        description: 'A human resource platform that automates both HR and employee management processes'
     },
 
     {
@@ -33,17 +33,17 @@ export const projectList = [
         title: 'e-Agric360',
         image: require('../../assets/Img/e-agric360.svg'),
         alt:   'WAEC-logo',
-        href:  ' https://eagriculture360.azurewebsites.net',
-        description: 'A platform that links verified Farmers to loans, credit facilities and market place'
+        link:  ' https://eagriculture360.azurewebsites.net',
+        description: 'A platform that links verified farmers to loans, credit facilities, agro-processors and market place'
     },
 
     {
         id: '5',
         title: 'Cinch IT',
         image: require('../../assets/Img/e-agric360.svg'),
-        alt:   'WAEC-logo',
-        href:  ' https://mobileinsure.azurewebsites.net',
-        description: 'A platform that links Phone buyers to Insurance companies'
+        alt:   'CinchIT-logo',
+        link:  ' https://mobileinsure.azurewebsites.net',
+        description: 'A platform that links phone distributors and Phone owners to Insurance companies'
     }
 ]
 

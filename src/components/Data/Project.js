@@ -7,7 +7,7 @@ export const projectList = [
         alt:    'Bizkit-logo',
         link:   'https://bizkit.com.ng/',
         description: 'A platform that offers SME Owners and Managers a seamless approach in   handling Accounting, Inventory, Payroll and Invoicing.',
-        language: ['HTML5', 'Javascript', 'CSS3']
+        language: ['HTML5', 'Js', 'CSS3', 'C#']
     },
 
     {
@@ -16,7 +16,8 @@ export const projectList = [
         image: require('../../assets/Img/iGofer.png'),
         alt:    'iGofer-logo',
         link:   'https://igofer-app.herokuapp.com',
-        description: 'A market place that connects individuals, businesses and organisations to vetted and qualified handy men.'
+        description: 'A market place that connects individuals, businesses and organisations to vetted and qualified handy men.',
+        language: ['HTML5', 'Js', 'CSS3', 'vue', 'node']
     },
 
     {
@@ -25,7 +26,8 @@ export const projectList = [
         image: require('../../assets/Img/waec-logo.png'),
         alt:   'WAEC-logo',
         link:  'https://waechris.azurewebsites.net',
-        description: 'A human resource platform that automates both HR and employee management processes'
+        description: 'A human resource platform that automates both HR and employee management processes for West African Examination Council',
+        language: ['HTML5', 'Js', 'CSS3', 'C#', 'MSSQL']
     },
 
     {
@@ -34,7 +36,8 @@ export const projectList = [
         image: require('../../assets/Img/e-agric360.svg'),
         alt:   'WAEC-logo',
         link:  ' https://eagriculture360.azurewebsites.net',
-        description: 'A platform that links verified farmers to loans, credit facilities, agro-processors and market place'
+        description: 'A platform that links verified farmers to loans, credit facilities, agro-processors and market place',
+        language: ['HTML5', 'Js', 'CSS3', 'vb.net', 'MSSQL']
     },
 
     {
@@ -43,7 +46,18 @@ export const projectList = [
         image: require('../../assets/Img/e-agric360.svg'),
         alt:   'CinchIT-logo',
         link:  ' https://mobileinsure.azurewebsites.net',
-        description: 'A platform that links phone distributors and Phone owners to Insurance companies'
+        description: 'A platform that links phone distributors and Phone buyers to Insurance companies',
+        language: ['HTML5', 'Js', 'CSS3', 'MSSQL']
+    },
+
+    {
+        id: '6',
+        title: 'COVID-19 Estimator',
+        image: require('../../assets/Img/SDG-min.webp'),
+        alt:   'COVID-19-logo',
+        link:  ' https://mobileinsure.azurewebsites.net',
+        description: 'A platform that links phone distributors and Phone buyers to Insurance companies',
+        language: ['HTML5', 'Js', 'CSS3', 'Bootstrap']
     }
 ]
 
@@ -65,6 +79,44 @@ export const certificationList = [
         id: '3',
         name: 'Leadership and Team building',
         link: 'https://www.credential.net/58d95e1d-acc4-4b69-a73c-9452b50f8950?username=danielchukwurah'
+    }
+
+]
+
+export const socialMediaList = [
+    {
+        id: '1',
+        name: 'Facebook',
+        link: 'https://web.facebook.com/nonsochukwura',
+        class: 'ti-facebook mr-3 ti-3x'
+    },
+
+    {
+        id: '2',
+        name: 'Instagram',
+        link: 'https://www.instagram.com/danielchukwura/?hl=en',
+        class: 'ti-instagram mr-3 ti-3x'
+    },
+
+    {
+        id: '3',
+        name: 'Twitter',
+        link: 'https://twitter.com/dani_chuks',
+        class: 'ti-twitter-alt mr-3 ti-3x'
+    },
+
+    {
+        id: '4',
+        name: 'Linkedin',
+        link: 'https://linkedin.com/in/daniel-chukwurah',
+        class: 'ti-linkedin mr-3 ti-3x'
+    },
+
+    {
+        id: '5',
+        name: 'Github',
+        link: 'https://github.com/nonsoo24',
+        class: 'ti-github mr-3 ti-3x'
     }
 
 ]

@@ -2,23 +2,28 @@
   <div class="home">
     <!-- Navbar -->
     <nav-bar></nav-bar>
+
+    <!-- side navbar -->
+        <side-navbar />
     <main>
 
-    <!-- Introduction Section -->
+      <!-- Introduction Section -->
       <Section id="section-intro">
-        <div class="container  mb-4">
+        <div class="container mb-5">
           <h1>Hello! 👋</h1>
           <p>
-            I'm <strong>Daniel Nonso Chukwurah</strong>, A Front-end Engineer based in Lagos, Nigeria. I help brands and
-            organistions
-            build scalable web applications and softwares with good user experience and accessibility that meets their
-            business
-            goals.
+            I'm <strong>Daniel Nonso Chukwurah</strong>,<br> A Software Engineer based in Lagos, Nigeria. I am passionate about
+            building scalable web applications and softwares with good user experience and accessibility that meets business goals.
           </p>
+        <div class="social-media mt-5 pb-5">
+          <a v-for="(socialMedia, i) in socialMediaHandles" :key="i" :href=socialMedia.link>
+            <span :class=socialMedia.class></span>
+          </a>
+        </div>
 
-          <div class="text-left">
+          <!-- <div class="text-left">
             <button @click="getInTouch()" class="btn btn-primary box bounce">Get in Touch</button>
-          </div>
+          </div> -->
 
           <!-- <p>
             I'm passionate about building softwares with good user experience, good designs, accessible, test driven and
@@ -28,12 +33,12 @@
 
       </Section>
 
-    <!-- About Section -->
-      <section id="section-about">
+      <!-- About Section -->
+      <section id="section-about mt-4">
         <div class="container">
           <h2>About</h2>
           <p>
-            I'm currently a Front-end Engineer at Sidmach Technologies Limited building enterprise web solutions and
+            I'm currently a Software Engineer at Sidmach Technologies Limited building enterprise web solutions and
             softwares together with amazing teams for clients.
           </p>
 
@@ -43,7 +48,7 @@
           </p>
 
           <p>
-            As a Front-end Engineer, I'm passionate about building softwares that are accessible, have good user
+            As a Software Engineer, I'm passionate about building softwares that are accessible, have good user
             experience, good designs,
             and test driven.
           </p>
@@ -64,7 +69,7 @@
         <!-- <p>writing clean codes to the best of my ability. I also enjoy learning new technologies.</p> -->
       </section>
 
-    <!-- Skills Section -->
+      <!-- Skills Section -->
       <section id="section-skills" class="container mt-5">
         <h2>Skills</h2>
         <p>
@@ -77,67 +82,51 @@
           <div class="skill-category-label">
             <div class="text-left text-uppercase font-weight-bolder">Languages</div>
             <ul>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Javascript (ES6)</li>
-              <li>SQL</li>
-              <li>Python</li>
+              <li v-for="(language, i) in languages" :key="i">{{language}}</li>
             </ul>
           </div>
 
           <div class="skill-category-label">
             <div class="text-left text-uppercase font-weight-bolder">Frameworks</div>
             <ul>
-              <li>Vue</li>
-              <li>Vuetify</li>
-              <li>Node</li>
-              <li>.Net</li>
+              <li v-for="(framework, i) in frameworks" :key="i">{{framework}}</li>
             </ul>
           </div>
 
           <div class="skill-category-label">
             <div class="text-left text-uppercase font-weight-bolder">Database</div>
             <ul>
-              <li>MSSQL</li>
-              <li>MongoDB</li>
+              <li v-for="(database, i) in databases" :key="i">{{database}}</li>
             </ul>
           </div>
 
           <div class="skill-category-label">
             <div class="text-left text-uppercase font-weight-bolder">Tools</div>
             <ul>
-              <li>Azure DevOps</li>
-              <li>Bash</li>
-              <li>Git & Github</li>
-              <li>Netlify</li>
-              <li>Heroku</li>
-              <li>Chrome DevTools</li>
+              <li v-for="(tool, i) in tools" :key="i">{{tool}}</li>
             </ul>
           </div>
 
         </div>
       </section>
 
-<!-- Project Section -->
+      <!-- Project Section -->
       <section id="section-project" class="container">
-        <h2>Projects</h2>
+        <h2 class="mt-5">Projects</h2>
         <div class="project">
           <div class="row">
-             <div class="col-12 col-lg-4" v-for="(project, i) in projects" :key="i" >
-              <a class="project-link" :href= project.link target="_blank">
+            <div class="col-12 col-lg-4" v-for="(project, i) in projects" :key="i">
+              <a class="project-link" :href=project.link target="_blank">
                 <div class="card features">
                   <div class="card-body">
                     <div class="media">
-                      <span class="mr-3"><img :src= project.image :alt= project.alt></span>
+                      <span class="mr-3"><img :src=project.image :alt=project.alt></span>
 
                       <div class="media-body">
                         <h4 class="card-title text-left">{{project.title}}</h4>
                         <p class="card-text text-left">{{project.description}}</p>
                         <ul class="list-inline mb-0 mx-auto">
-                          <li class="list-inline-item"><span class="badge badge-secondary badge-pill">Vue</span></li>
-                          <li class="list-inline-item"><span class="badge badge-secondary badge-pill">Vue</span></li>
-                          <li class="list-inline-item"><span class="badge badge-secondary badge-pill">Vue</span></li>
-                          <li class="list-inline-item"><span class="badge badge-secondary badge-pill">Vue</span></li>
+                          <li class="list-inline-item" v-for="(lang, i) in project.language" :key="i"><span class="badge badge-secondary badge-pill">{{project.language[i]}}</span></li>
                         </ul>
                       </div>
                     </div>
@@ -145,258 +134,7 @@
                 </div>
               </a>
             </div>
-
-            <!-- <div class="col-12 col-lg-4">
-              <a class="project-link" href="https://bizkit.com.ng/" target="_blank">
-                <div class="card features">
-                  <div class="card-body">
-                    <div class="media">
-                      <span class="mr-3"><img src="../assets/Img/Bizkit.png" alt="Bizkit-logo"></span>
-
-                      <div class="media-body">
-                        <h4 class="card-title text-left">Bizkit</h4>
-                        <p class="card-text text-left">A platform that offers SME Owners and Managers a
-                          seamless approach in
-                          handling
-                          Accounting, Inventory, Payroll and Invoicing.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-
-
-            <div class="col-12 col-lg-4">
-              <a class="project-link flex-grow" href="https://igofer-app.herokuapp.com" target="_blank">
-                <div class="card features">
-                  <div class="card-body">
-                    <div class="media">
-                      <span class="mr-3"><img src="../assets/Img/iGofer.png" alt="iGofer-logo"></span>
-                      <div class="media-body">
-                        <h4 class="card-title text-left">iGofer</h4>
-                        <p class="card-text text-left">A market place that connects individuals to vetted and
-                          professional handy</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-
-            <div class="col-12 col-lg-4">
-              <div class="card features">
-                <a class="project-link" href="https://waechris.azurewebsites.net" target="_blank">
-                  <div class="card-body">
-                    <div class="media">
-                      <span class="mr-3"><img src="../assets/Img/waec-logo.png" alt="WAEC-logo"></span>
-                      <div class="media-body">
-                        <h4 class="card-title text-left">WAEC HRIS</h4>
-                        <p class="card-text text-left">A Platform that automates employee management processes</p>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col-12 col-lg-4">
-              <a class="project-link" href="https://eagriculture360.azurewebsites.net/" target="_blank">
-                <div class="card features">
-                  <div class="card-body">
-                    <div class="media">
-                      <span class="mr-3"><img src="../assets/Img/e-agric360.svg" alt="iGofer-logo"></span>
-                      <div class="media-body">
-                        <h4 class="card-title text-left">e-Agric360</h4>
-                        <p class="card-text text-left">A platform that links verified Farmers to loans, credit
-                          facilities and market place</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-
-            <div class="col-12 col-lg-4">
-              <a class="project-link" href="https://mobileinsure.azurewebsites.net" target="_blank">
-                <div class="card features">
-                  <div class="card-body">
-                    <div class="media">
-                      <span class="mr-3"><img src="../assets/Img/e-agric360.svg" alt="CinchIT-logo"></span>
-                      <div class="media-body">
-                        <h4 class="card-title text-left">Cinch IT</h4>
-                        <p class="card-text text-left">
-                          A platform that links Phone buyers to Insurance companies
-                        </p>
-                          <ul class="project-language d-flex">
-                            <li>Javascript</li>
-                            <li>.Net</li>
-                            <li>MSSQL</li>
-                          </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div> -->
-
           </div>
-
-          <!-- <ul class="project-list d-flex justify-content-around">
-            <li class="project-card card flex-row shadow rounded">
-              <div class="project-content flex-row">
-                <a class="project-link" href="https://bizkit.com.ng/" target="_blank">
-                  <div class="flex-row d-flex">
-                    <div><img src="../assets/Img/Bizkit.png" alt="iGofer-logo"></div>
-                    <div class="project-details">
-                      <h3 class="text-left project-title">Bizkit</h3>
-                      <p class="text-left project-description">A platform that offers SME Owners and Managers a
-                        seamless approach in
-                        handling
-                        Accounting, Inventory, Payroll and Invoicing.
-                      </p>
-
-                      <div>
-                        <ul class="project-language d-flex">
-                          <li>Javascript</li>
-                          <li>.Net</li>
-                          <li>C#</li>
-                          <li>Vue Js</li>
-                          <li>MSSQL</li>
-                        </ul>
-                      </div>
-                      <div>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </li>
-
-            <li class="project-card card flex-row shadow rounded">
-              <div class="project-content flex-row">
-                <a class="project-link flex-grow" href="https://igofer-app.herokuapp.com" target="_blank">
-                  <div class="flex-row d-flex">
-                    <div><img src="../assets/Img/iGofer.png" alt="iGofer-logo"></div>
-                    <div class="project-details">
-                      <h3 class="text-left project-title">iGofer</h3>
-                      <p class="text-left project-description">A market place that connects individuals to vetted and professional handy
-                men/artisans
-                      </p>
-
-                      <div>
-                        <ul class="project-language d-flex">
-                          <li>Javascript</li>
-                          <li>Vue Js</li>
-                          <li>Node</li>
-                          <li>MongoDB</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </li>
-
-            <li class="project-card card flex-row shadow rounded">
-              <div class="project-content flex-row">
-                <a class="project-link" href="https://waechris.azurewebsites.net/" target="_blank">
-                  <div class="flex-row d-flex">
-                    <div><img src="../assets/Img/waec-logo.png" alt="iGofer-logo"></div>
-                    <div class="project-details">
-                      <h3 class="text-left project-title">WAEC HR</h3>
-                      <p class="text-left project-description">A Platform that automates employee management processes
-                      </p>
-
-                      <div>
-                        <ul class="project-language d-flex">
-                          <li>Javascript</li>
-                          <li>.Net</li>
-                          <li>C#</li>
-                          <li>MSSQL</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </li>
-          </ul>
-
-          <ul class=" project-list d-flex justify-content-around">
-              <li class="project-card card shadow rounded">
-                <div class="project-content flex-row">
-                  <a class="project-link" href="https://mobileinsure.azurewebsites.net" target="_blank">
-                    <div class="flex-row d-flex">
-                      <div><img src="../assets/Img/e-agric360.svg" alt="iGofer-logo"></div>
-                      <div class="project-details">
-                        <h3 class="text-left project-title">Cinch IT</h3>
-                        <p class="text-left project-description">A platform that links Phone buyers to Insurance companies
-                        </p>
-
-                        <div>
-                          <ul class="project-language d-flex">
-                            <li>Javascript</li>
-                            <li>.Net</li>
-                            <li>MSSQL</li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </li>
-
-              <li class="project-card card shadow rounded">
-                <div class="project-content flex-row">
-                  <a class="project-link" href="https://eagriculture360.azurewebsites.net/" target="_blank">
-                    <div class="flex-row d-flex">
-                      <div><img src="../assets/Img/e-agric360.svg" alt="iGofer-logo"></div>
-                      <div class="project-details">
-                        <h3 class="text-left project-title">e-Agric360</h3>
-                        <p class="text-left project-description">A platform that links verified Farmers to loans, credit facilities and market place
-                        </p>
-
-                        <div>
-                          <ul class="project-language d-flex">
-                            <li>Javascript</li>
-                            <li>.Net</li>
-                            <li>C#</li>
-                            <li>Vue Js</li>
-                            <li>MSSQL</li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </li>
-
-              <li class="project-card card shadow rounded">
-                <div class="project-content flex-row">
-                  <a class="project-link" href="https://eagriculture360.azurewebsites.net/" target="_blank">
-                    <div class="flex-row d-flex">
-                      <div><img src="../assets/Img/e-agric360.svg" alt="iGofer-logo"></div>
-                      <div class="project-details">
-                        <h3 class="text-left project-title">e-Agric360</h3>
-                        <p class="text-left project-description">A platform that links verified Farmers to loans, credit facilities and market place
-                        </p>
-
-                        <div>
-                          <ul class="project-language d-flex">
-                            <li>Javascript</li>
-                            <li>.Net</li>
-                            <li>C#</li>
-                            <li>Vue Js</li>
-                            <li>MSSQL</li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </li>
-          </ul> -->
         </div>
       </section>
 
@@ -499,7 +237,7 @@
       </section> -->
 
 
-  <!-- Contact section -->
+      <!-- Contact section -->
       <section class="container mb-5" id="section-contact">
         <h2>Get in <strong>Touch</strong></h2>
         <p>I am opened to opportunities, collaborations, speaking engagement, developers community work,
@@ -509,6 +247,10 @@
           <a href="https://www.linkedin.com/in/daniel-chukwurah-mcp-543a8b145/" target="_blank"
             title="LinkedIn">LinkedIn</a>.
         </p>
+
+        <!-- LinkedIn Div -->
+        <!-- <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="daniel-chukwurah-mcp-543a8b145" style="float: right"><a class="LI-simple-link" href='https://ng.linkedin.com/in/daniel-chukwurah-mcp-543a8b145?trk=profile-badge'>Daniel Chukwurah, MCP</a></div> -->
+
         <p>
           You can send me a message and I’ll reply as soon as possible.
         </p>
@@ -516,27 +258,10 @@
         <!-- social media icons -->
         <div class="social-media text-center mt-5">
           <p class="text-center">Say hi anytime ―</p>
-          <a href="https://web.facebook.com/nonsochukwura">
-            <span class="ti-facebook mr-3 ti-3x"></span>
+
+          <a v-for="(socialMedia, i) in socialMediaHandles" :key="i" :href=socialMedia.link>
+            <span :class=socialMedia.class></span>
           </a>
-
-          <a href="https://www.instagram.com/danielchukwura/?hl=en">
-            <span class="ti-instagram mr-3 ti-3x"></span>
-          </a>
-
-
-          <a href="https://twitter.com/dani_chuks"><span class="ti-twitter-alt mr-3 ti-3x"> </span></a>
-
-
-          <a href="https://www.linkedin.com/in/daniel-chukwurah-mcp-543a8b145/">
-            <span class="ti-linkedin mr-3 ti-3x"></span>
-          </a>
-
-
-          <a href="https://github.com/nonsoo24/">
-            <span class="ti-github mr-3 ti-3x"></span>
-          </a>
-
         </div>
       </section>
 
@@ -550,43 +275,47 @@
   // @ is an alias to /src
   import NavBar from '@/components/NavBar.vue'
   import Footer from '@/components/Footer.vue'
-  import {projectList} from '../components/Data/Project.js'
-  // import {certificationList} from '../components/Api/Project.js'
+  import SideNavBar from '@/components/SideNavBar.vue'
+  import {projectList} from '@/components/Data/Project.js'
+  import {socialMediaList} from '@/components/Data/Project.js'
+  // import {certificationList} from '@/components/Api/Project.js'
 export default {
   data() {
       return {
         projects: [],
-        certifications: []
+        socialMediaHandles: [],
+        // certifications: []
+        languages: ['HTML', 'CSS', 'Javascript (ES6)', 'SQL', 'Python'],
+        frameworks: ['Vue', 'Vuetify', 'Node', '.Net'],
+        tools: ['MSSQL', 'MongoDB'],
+        databases: ['Azure DevOps', 'Bash', 'Git & Github', 'Netlify', 'Heroku', 'Chrome DevTools']
       }
     },
     // name: 'navbar',
-    methods: {
-      getInTouch() {
-        window.location = "#section-contact"
-      },
+    // methods: {
+    //   getInTouch() {
+    //     window.location = "#section-contact"
+    //   }
 
-      mouseOver() {
-         let projectDivHover = document.querySelector(".project-language").addEventListener("mouseover", mouseOver);
-
-         let projectDivHoverOut = document.querySelector(".project-language").addEventListener("mouseout", mouseOut);
-
-          document.getElementById("demo").style.color = "black";
-        }
-
-    },
+    // },
     components: {
       'nav-bar': NavBar,
-      'the-footer': Footer
+      'the-footer': Footer,
+      'side-navbar':SideNavBar
     },
 
     created() {
       projectList.forEach(project => {
           this.projects.push(project);
-      }),
-
-      certificationList.forEach(certification => {
-          this.certifications.push(certification);
       })
+
+      socialMediaList.forEach(socialMedia => {
+          this.socialMediaHandles.push(socialMedia);
+      })
+
+      // certificationList.forEach(certification => {
+      //     this.certifications.push(certification);
+      // })
     }
   }
 

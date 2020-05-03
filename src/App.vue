@@ -44,4 +44,7 @@ body html{
    background-color: #f3f7f9 !important;
 }
 
+.is-open {
+  width: 200px !important;
+}
 </style>

@@ -8,18 +8,30 @@
     <main>
 
       <!-- Introduction Section -->
-      <Section id="section-intro">
-        <div class="container mb-5">
-          <h1>Hello! 👋</h1>
-          <p>
-            I'm <strong>Daniel Nonso Chukwurah</strong>,<br> A Software Engineer based in Lagos, Nigeria. I am passionate about
-            building scalable web applications and softwares with good user experience and accessibility that meets business goals.
-          </p>
-        <div class="social-media mt-5 pb-5">
-          <a v-for="(socialMedia, i) in socialMediaHandles" :key="i" :href=socialMedia.link>
-            <span :class=socialMedia.class></span>
-          </a>
-        </div>
+      <Section id="intro">
+        <div class="container pb-4">
+          <!-- <h1>Hello! 👋</h1> -->
+          <div class="row">
+            <div class="col-md-6">
+              <h1 class="pb-4">NONSO</h1>
+              <p>
+                Hi, I'm <strong>Daniel Nonso Chukwurah</strong>,<br> A Software Engineer based in Lagos, Nigeria. <br> I am
+                passionate about
+                building scalable web applications and softwares with good user experience and accessibility that meets
+                business goals.
+              </p>
+              <div class="social-media pt-4">
+                <p class="text-sm"> <u> Say hi</u></p>
+                <a v-for="(socialMedia, i) in socialMediaHandles" :key="i" :href=socialMedia.link>
+                  <span :class=socialMedia.class></span>
+                </a>
+              </div>
+
+            </div>
+            <div class="col-md-6">
+              <img src="../assets/Img/DanielChukwurah.jpg" alt="DanielChukwurah" width="500" height="500">
+            </div>
+          </div>
 
           <!-- <div class="text-left">
             <button @click="getInTouch()" class="btn btn-primary box bounce">Get in Touch</button>
@@ -33,44 +45,9 @@
 
       </Section>
 
-      <!-- About Section -->
-      <section id="section-about mt-4">
-        <div class="container">
-          <h2>About</h2>
-          <p>
-            I'm currently a Software Engineer at Sidmach Technologies Limited building enterprise web solutions and
-            softwares together with amazing teams for clients.
-          </p>
-
-          <p class="d-none">
-            I enjoy bridging the gap between engineering and design - combining state-of-the-art
-            technical knowledge with a keen eye for design to create a most beautiful product and services.
-          </p>
-
-          <p>
-            As a Software Engineer, I'm passionate about building softwares that are accessible, have good user
-            experience, good designs,
-            and test driven.
-          </p>
-
-          <p>
-            When I'm not coding you can find me surfing the internet, playing and watching football, playing video
-            games, or hanging out with friends and family.
-          </p>
-
-          <!-- certifications -->
-          <!-- <h5>Certifications</h5>
-          <ul class="certification-list">
-            <li v-for="(certification, i) in certifications" :key="i">
-              <a :href= certification.link> <span class="ti-control-forward mr-3"></span> {{certification.name}}</a>
-            </li>
-          </ul> -->
-        </div>
-        <!-- <p>writing clean codes to the best of my ability. I also enjoy learning new technologies.</p> -->
-      </section>
 
       <!-- Skills Section -->
-      <section id="section-skills" class="container mt-5">
+      <!-- <section id="skills" class="container mt-5">
         <h2>Skills</h2>
         <p>
           I am proficient in some skills and on my way to becoming an expert. Here are some of the
@@ -108,35 +85,8 @@
           </div>
 
         </div>
-      </section>
+      </section> -->
 
-      <!-- Project Section -->
-      <section id="section-project" class="container">
-        <h2 class="mt-5">Projects</h2>
-        <div class="project">
-          <div class="row">
-            <div class="col-12 col-lg-4" v-for="(project, i) in projects" :key="i">
-              <a class="project-link" :href=project.link target="_blank">
-                <div class="card features">
-                  <div class="card-body">
-                    <div class="media">
-                      <span class="mr-3"><img :src=project.image :alt=project.alt></span>
-
-                      <div class="media-body">
-                        <h4 class="card-title text-left">{{project.title}}</h4>
-                        <p class="card-text text-left">{{project.description}}</p>
-                        <ul class="list-inline mb-0 mx-auto">
-                          <li class="list-inline-item" v-for="(lang, i) in project.language" :key="i"><span class="badge badge-secondary badge-pill">{{project.language[i]}}</span></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
 
 
 
@@ -238,7 +188,7 @@
 
 
       <!-- Contact section -->
-      <section class="container mb-5" id="section-contact">
+      <!-- <section class="container mb-5" id="contact">
         <h2>Get in <strong>Touch</strong></h2>
         <p>I am opened to opportunities, collaborations, speaking engagement, developers community work,
           volunteering and relocation. I am mostly available on <a href="mailto:daniel.chukwurah@gmail.com"
@@ -246,24 +196,24 @@
             title="Twitter">twitter</a> and
           <a href="https://www.linkedin.com/in/daniel-chukwurah-mcp-543a8b145/" target="_blank"
             title="LinkedIn">LinkedIn</a>.
-        </p>
+        </p> -->
 
         <!-- LinkedIn Div -->
         <!-- <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="daniel-chukwurah-mcp-543a8b145" style="float: right"><a class="LI-simple-link" href='https://ng.linkedin.com/in/daniel-chukwurah-mcp-543a8b145?trk=profile-badge'>Daniel Chukwurah, MCP</a></div> -->
 
-        <p>
+        <!-- <p>
           You can send me a message and I’ll reply as soon as possible.
-        </p>
+        </p> -->
 
         <!-- social media icons -->
-        <div class="social-media text-center mt-5">
+        <!-- <div class="social-media text-center mt-5">
           <p class="text-center">Say hi anytime ―</p>
 
           <a v-for="(socialMedia, i) in socialMediaHandles" :key="i" :href=socialMedia.link>
             <span :class=socialMedia.class></span>
           </a>
         </div>
-      </section>
+      </section> -->
 
     </main>
 
@@ -276,19 +226,19 @@
   import NavBar from '@/components/NavBar.vue'
   import Footer from '@/components/Footer.vue'
   import SideNavBar from '@/components/SideNavBar.vue'
-  import {projectList} from '@/components/Data/Project.js'
+ 
   import {socialMediaList} from '@/components/Data/Project.js'
   // import {certificationList} from '@/components/Api/Project.js'
 export default {
   data() {
       return {
-        projects: [],
+        //projects: [],
         socialMediaHandles: [],
         // certifications: []
         languages: ['HTML', 'CSS', 'Javascript (ES6)', 'SQL', 'Python'],
         frameworks: ['Vue', 'Vuetify', 'Node', '.Net'],
-        tools: ['MSSQL', 'MongoDB'],
-        databases: ['Azure DevOps', 'Bash', 'Git & Github', 'Netlify', 'Heroku', 'Chrome DevTools']
+        databases: ['MSSQL', 'MongoDB'],
+        tools: ['Azure DevOps', 'Bash', 'Git & Github', 'Netlify', 'Heroku', 'Chrome DevTools']
       }
     },
     // name: 'navbar',
@@ -305,9 +255,9 @@ export default {
     },
 
     created() {
-      projectList.forEach(project => {
-          this.projects.push(project);
-      })
+      // projectList.forEach(project => {
+      //     this.projects.push(project);
+      // })
 
       socialMediaList.forEach(socialMedia => {
           this.socialMediaHandles.push(socialMedia);

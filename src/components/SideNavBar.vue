@@ -1,28 +1,22 @@
 <template>
     <nav id="mySidenav" class="sidenav">
-            <ul class="navbar-nav ml-auto">
-                <!-- <li class="nav-item active">
-                        <a class="nav-link" href="#section-home">Home <span class="sr-only">(current)</span></a>
-                    </li> -->
-                <li class="nav-item">
-                    <a class="nav-link" href="#section-about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#section-skills">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#section-project">Project</a>
-                </li>
-                <!-- <li class="nav-item">
-                        <a class="nav-link" href="#section-hackaton">Hackathon</a>
-                    </li> -->
-                <li class="nav-item">
-                    <a class="nav-link" href="#section-blog">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#section-contact">Contact</a>
-                </li>
-            </ul>
+        <ul class="navbar-nav">
+
+             <router-link id="home" class="nav-link" to="/" tag="li" active-class="active" exact>
+                Home</router-link>
+
+            <router-link id="about" class="nav-link" to="/about" tag="li" active-class="active" exact>
+                About</router-link>
+
+            <!-- <router-link id="skills" class="nav-link" to="/store" tag="li" active-class="active">Skills</router-link> -->
+
+            <router-link id="portfolio" class="nav-link" to="/portfolio" tag="li" active-class="active">Portfolio
+            </router-link>
+
+            <router-link id="blog" class="nav-link" to="/blog" tag="li" active-class="active">Blog
+            </router-link>
+
+        </ul>
     </nav>
 
 
@@ -47,7 +41,7 @@ export default {
   right: 0;
   background-color: #fff;
   /* box-shadow: 0 0 1px 2px #E2E2E2; */
-  opacity: 0.5;
+  /* opacity: 0.5; */
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 73px;
@@ -74,4 +68,10 @@ export default {
     text-align: right;
     font-weight: 700;
 }
+
+/* #mySidenav .navbar-nav .nav-link:hover{
+    border-bottom: 1px solid #000;
+    border-bottom-width: medium;
+    width: 20px;
+} */
 </style>

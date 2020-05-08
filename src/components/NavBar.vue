@@ -10,6 +10,10 @@
                 <!-- toggle light and dark theme -->
                 <ul class="navbar-nav">
                     <li class="nav-item">
+                        <!-- <button :title="theme == 'dark' ? 'Dark Theme' : 'Light Theme'" @click="toggleTheme()"
+                            class="theme">
+                            <Moon :is="theme == 'dark' ? 'Moon' : 'Sun'" height="20px" />
+                        </button> -->
                         <a class="nav-link ti-shine" href=""></a>
                     </li>
                 </ul>

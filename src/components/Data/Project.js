@@ -3,62 +3,117 @@ export const projectList = [
     {
         id: '1',
         title:  'Bizkit',
-        image:   require('../../assets/Img/Bizkit.png'),
-        alt:    'Bizkit-logo',
+        class:  'collapse show',
+        image:   require('../../assets/Img/Bizkit-mockup.png'),
+        alt:    'Bizkit-mockup',
         link:   'https://bizkit.com.ng/',
         description: 'A platform that offers SME Owners and Managers a seamless approach in   handling Accounting, Inventory, Payroll and Invoicing.',
-        language: ['HTML5', 'Js', 'CSS3', 'C#']
+        language: ['HTML5', 'Js', 'CSS3', 'C#'],
+        ownership: 'Sidmach Technologies',
+        github: '',
+        dataTarget: '#bizkitt',
+        name: 'bizkitt',
+        status: ''
     },
 
     {
         id: '2',
         title: 'iGofer',
-        image: require('../../assets/Img/iGofer.png'),
-        alt:    'iGofer-logo',
+        class:  'collapse',
+        image: require('../../assets/Img/iGofer-mockup.png'),
+        alt:    'iGofer-mockup',
         link:   'https://igofer-app.herokuapp.com',
         description: 'A market place that connects individuals, businesses and organisations to vetted and qualified handy men.',
-        language: ['HTML5', 'Js', 'CSS3', 'vue', 'node']
+        language: ['HTML5', 'Js', 'CSS3', 'vue', 'node'],
+        ownership: 'Personal',
+        github: 'https://github.com/nonsoo24/iGofer-New',
+        dataTarget: '#igoferr',
+        name: 'igoferr',
+        status: ''
     },
 
     {
         id: '3',
         title: 'WAEC HRIS',
-        image: require('../../assets/Img/waec-logo.png'),
-        alt:   'WAEC-logo',
+        class:  'collapse',
+        image: require('../../assets/Img/HRIS-Mockup.png'),
+        alt:   'WAEC-mockup',
         link:  'https://waechris.azurewebsites.net',
         description: 'A human resource platform that automates both HR and employee management processes for West African Examination Council',
-        language: ['HTML5', 'Js', 'CSS3', 'C#', 'MSSQL']
+        language: ['HTML5', 'Js', 'CSS3', 'C#', 'MSSQL'],
+        ownership: 'Sidmach Technologies',
+        github: '',
+        dataTarget: '#Waec',
+        name: 'Waec',
+        status: ''
     },
 
     {
         id: '4',
         title: 'e-Agric360',
-        image: require('../../assets/Img/e-agric360.svg'),
-        alt:   'WAEC-logo',
+        class:  'collapse',
+        image: require('../../assets/Img/e-Agric-mockup.png'),
+        alt:   'e-agric-mockup',
         link:  ' https://eagriculture360.azurewebsites.net',
         description: 'A platform that links verified farmers to loans, credit facilities, agro-processors and market place',
-        language: ['HTML5', 'Js', 'CSS3', 'vb.net', 'MSSQL']
+        language: ['HTML5', 'Js', 'CSS3', 'vb.net', 'MSSQL'],
+        ownership: 'Sidmach Technologies',
+        github: '',
+        dataTarget: '#e-agric',
+        name: 'e-agric',
+        status: ''
     },
 
     {
         id: '5',
         title: 'Cinch IT',
-        image: require('../../assets/Img/e-agric360.svg'),
-        alt:   'CinchIT-logo',
-        link:  ' https://mobileinsure.azurewebsites.net',
+        class:  'collapse',
+        image: require('../../assets/Img/CinchIT-mockup.png'),
+        alt:   'CinchIT-mockup',
+        // link:  ' https://mobileinsure.azurewebsites.net',
+        link: 'https://cinchit.netlify.com/',
         description: 'A platform that links phone distributors and Phone buyers to Insurance companies',
-        language: ['HTML5', 'Js', 'CSS3', 'MSSQL']
+        language: ['HTML5', 'Js', 'CSS3', 'MSSQL'],
+        ownership: 'Sidmach Technologies',
+        github: '',
+        dataTarget: '#CinchIT',
+        name: 'CinchIT',
+        status: ''
     },
 
     {
         id: '6',
         title: 'COVID-19 Estimator',
-        image: require('../../assets/Img/SDG-min.webp'),
-        alt:   'COVID-19-logo',
-        link:  ' https://mobileinsure.azurewebsites.net',
+        class:  'collapse',
+        image: require('../../assets/Img/COVID-19-mockup.png'),
+        alt:   'COVID-19-mockup',
+        link:  'https://covid-19-infections-estimator.netlify.com/',
         description: 'A platform that links phone distributors and Phone buyers to Insurance companies',
-        language: ['HTML5', 'Js', 'CSS3', 'Bootstrap']
+        language: ['HTML5', 'Js', 'CSS3', 'Bootstrap'],
+        ownership: 'Personal',
+        github: 'https://github.com/nonsoo24/covid-19-estimator-UI',
+        dataTarget: '#covid',
+        name: 'covid',
+        status: ''
+    },
+
+    {
+        id: '7',
+        title: 'Emergency Response System',
+        class:  'collapse',
+        // image: require('../../assets/Img/SDG-min.webp'),
+        image: '',
+        alt:   'ERS-mockup',
+        link:  '',
+        description: 'A platform that links phone distributors and Phone buyers to Insurance companies',
+        language: ['HTML5', 'Js', 'CSS3', 'React', 'node'],
+        ownership: 'Build for SDG Project',
+        github: 'https://github.com/orgs/BuildForSDG/teams/team-075',
+        dataTarget: '#emergency',
+        name: 'emergency',
+        status: 'In-progress'
     }
+
 ]
 
 
@@ -117,6 +172,13 @@ export const socialMediaList = [
         name: 'Github',
         link: 'https://github.com/nonsoo24',
         class: 'ti-github mr-3 ti-3x'
+    },
+
+    {
+        id: '6',
+        name: 'Mail',
+        link: 'mailto:daniel.chukwurah@gmail.com',
+        class: 'ti-email mr-3 ti-3x'
     }
 
 ]

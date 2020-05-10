@@ -15,11 +15,13 @@
             <div class="col-md-6">
               <h1 class="pb-4">NONSO</h1>
               <p>
-                Hi, I'm <strong>Daniel Nonso Chukwurah</strong>,<br> A Software Engineer based in Lagos, Nigeria. <br> I am
+                Hi, I'm <strong>Daniel Nonso Chukwurah</strong>, but fondly called <b>Nonso.</b>
+              </p>
+              <p class="pt-1"> I'm a Software Engineer based in Lagos, Nigeria. I am
                 passionate about
                 building scalable web applications and softwares with good user experience and accessibility that meets
                 business goals.
-              </p>
+                </p>
               <div class="social-media pt-4">
                 <p class="text-sm"> <u> Say hi</u></p>
                 <a v-for="(socialMedia, i) in socialMediaHandles" :key="i" :href=socialMedia.link>

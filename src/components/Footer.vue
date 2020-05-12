@@ -11,7 +11,12 @@
 
 <style scoped>
     footer {
-    background: #F5F5F7 !important;
+    background: #fff !important;
+}
+
+.dark-theme footer{
+     background: #0d2538 !important;
+     color: #fff;
 }
 
 /* .list-group-item {

@@ -7,13 +7,13 @@ export const projectList = [
         image:   require('../../assets/Img/Bizkit-mockup.png'),
         alt:    'Bizkit-mockup',
         link:   'https://bizkit.com.ng/',
-        description: 'A platform that offers SME Owners and Managers a seamless approach in   handling Accounting, Inventory, Payroll and Invoicing.',
+        description: 'Bizkit is a business management tool for entrepreneurs running a small and growing business. It provides SME Owners and Managers a seamless approach in handling Accounting, Inventory, Payroll and Invoicing.',
         language: ['HTML5', 'Js', 'CSS3', 'C#'],
         ownership: 'Sidmach Technologies',
         github: '',
         dataTarget: '#bizkitt',
         name: 'bizkitt',
-        status: ''
+        status: 'Production'
     },
 
     {
@@ -29,23 +29,23 @@ export const projectList = [
         github: 'https://github.com/nonsoo24/iGofer-New',
         dataTarget: '#igoferr',
         name: 'igoferr',
-        status: ''
+        status: 'Development'
     },
 
     {
         id: '3',
-        title: 'WAEC HRIS',
+        title: 'Human Resource Information System',
         class:  'collapse',
         image: require('../../assets/Img/HRIS-Mockup.png'),
         alt:   'WAEC-mockup',
         link:  'https://waechris.azurewebsites.net',
-        description: 'A human resource platform that automates both HR and employee management processes for West African Examination Council',
+        description: 'A Human resource platform that automates employee management processes for the West African Examination Council (WAEC) Nigeria. Key features includes: Leave and Absence, Employee Data Management, Pension and Benefits management, Post Recruitment, Employee Self Service, Learning and Development, Reports and Analytics.',
         language: ['HTML5', 'Js', 'CSS3', 'C#', 'MSSQL'],
         ownership: 'Sidmach Technologies',
         github: '',
         dataTarget: '#Waec',
         name: 'Waec',
-        status: ''
+        status: 'Production'
     },
 
     {
@@ -55,13 +55,13 @@ export const projectList = [
         image: require('../../assets/Img/e-Agric-mockup.png'),
         alt:   'e-agric-mockup',
         link:  ' https://eagriculture360.azurewebsites.net',
-        description: 'A platform that links verified farmers to loans, credit facilities, agro-processors and market place',
+        description: 'A platform that intends to links verified farmers to credit schemes, credit facilities, agro-processors and market place. Key features include: Land verification, Land mapping, Farmer Verification, Credit score calculator, Weather and farming Information.',
         language: ['HTML5', 'Js', 'CSS3', 'vb.net', 'MSSQL'],
         ownership: 'Sidmach Technologies',
-        github: '',
+        github: '#',
         dataTarget: '#e-agric',
         name: 'e-agric',
-        status: ''
+        status: 'Development'
     },
 
     {
@@ -72,13 +72,13 @@ export const projectList = [
         alt:   'CinchIT-mockup',
         // link:  ' https://mobileinsure.azurewebsites.net',
         link: 'https://cinchit.netlify.com/',
-        description: 'A platform that links phone distributors and Phone buyers to Insurance companies',
+        description: 'A platform where customers can insure their new phones. Major stakeholders in this project include: phone distributors, stores and Insurance company',
         language: ['HTML5', 'Js', 'CSS3', 'MSSQL'],
         ownership: 'Sidmach Technologies',
-        github: '',
+        github: '#',
         dataTarget: '#CinchIT',
         name: 'CinchIT',
-        status: ''
+        status: 'Development'
     },
 
     {
@@ -88,7 +88,7 @@ export const projectList = [
         image: require('../../assets/Img/COVID-19-mockup.png'),
         alt:   'COVID-19-mockup',
         link:  'https://covid-19-infections-estimator.netlify.com/',
-        description: 'A platform that links phone distributors and Phone buyers to Insurance companies',
+        description: 'Cohort-1 assessment test for the Build for SDG challenge 2020 powered by Andela and Facebook Developer Circles. The assessement empowers me to attempt helping society and leaders prepare for the  real big problem of COVID-19, which has had impact on lives, health, systems, supply chains, and the economy',
         language: ['HTML5', 'Js', 'CSS3', 'Bootstrap'],
         ownership: 'Personal',
         github: 'https://github.com/nonsoo24/covid-19-estimator-UI',
@@ -104,14 +104,14 @@ export const projectList = [
         // image: require('../../assets/Img/SDG-min.webp'),
         image: '',
         alt:   'ERS-mockup',
-        link:  '',
-        description: 'A platform that links phone distributors and Phone buyers to Insurance companies',
+        link:  '#',
+        description: 'Build for SDG Cohort-1 Project. My Team attempts to tackle SDG goal 3 (Good Health And Well-being) problem statement 2 - Think of a solution from two perspectives - victim and response side. This solution can help avoid, alert, inform, monitor and report road injuries and deaths',
         language: ['HTML5', 'Js', 'CSS3', 'React', 'node'],
         ownership: 'Build for SDG Project',
         github: 'https://github.com/orgs/BuildForSDG/teams/team-075',
         dataTarget: '#emergency',
         name: 'emergency',
-        status: 'In-progress'
+        status: 'Development'
     }
 
 ]

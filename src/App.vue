@@ -44,4 +44,8 @@ body html{
 .is-open {
   width: 200px !important;
 }
+
+#body, #body * {
+    transition: background 0.4s cubic-bezier(0.645, 0.045, 0.355, 1), background-color 0.4s cubic-bezier(0.645, 0.045, 0.355, 1), color 0.4s cubic-bezier(0.645, 0.045, 0.355, 1), border 0.4s cubic-bezier(0.645, 0.045, 0.355, 1), content 0.4s cubic-bezier(0.645, 0.045, 0.355, 1), transform 0.3s;
+}
 </style>

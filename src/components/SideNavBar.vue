@@ -13,7 +13,7 @@
             <router-link id="portfolio" class="nav-link" to="/portfolio" tag="li" active-class="active">Portfolio
             </router-link>
 
-            <router-link id="blog" class="nav-link" to="/blog" tag="li" active-class="active">Blog
+            <router-link id="blog" class="nav-link" to="/#" tag="li" active-class="active">Blog
             </router-link>
 
         </ul>
@@ -63,11 +63,16 @@ export default {
 }
 
 #mySidenav .navbar-nav .nav-link {
-    padding-right: 80px !important;
+    padding-left: 60px !important;
     color: #000;
-    text-align: right;
+    text-align: left;
     font-weight: 700;
 }
+
+#mySidenav .navbar-nav .nav-link:hover {
+    color: rgb(253, 179, 42);
+}
+
 
 /* #mySidenav .navbar-nav .nav-link:hover{
     border-bottom: 1px solid #000;

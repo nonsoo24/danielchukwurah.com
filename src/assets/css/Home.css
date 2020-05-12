@@ -71,12 +71,17 @@ body {
   position: relative;
 }
 
+.dark-theme{
+  background-color: #0d2538;
+  color: #fff;
+ }
+
 h1 {
   font-size: 3rem;
   text-align: left;
   font-weight: 700;
   letter-spacing: -1px;
-  font-family: "Gilroy-Bold ☞";
+  font-family: "Gilroy-Bold ☞", sans-serif;
   /* margin-bottom: 1.5rem; */
   /* margin-top: 70px; */
 }
@@ -85,7 +90,7 @@ h2 {
   font-size: 2rem;
   text-align: left;
   font-weight: 700;
-  font-family: "Gilroy-Bold ☞";
+  font-family: "Gilroy-Bold ☞", sans-serif;
   /* letter-spacing: 3px; */
 }
 
@@ -111,7 +116,7 @@ h5 {
 p {
   font-size: 1rem;
   text-align: left;
-  font-family: "avenir-next-lt-pro-regular";
+  font-family: "avenir-next-lt-pro-regular", sans-serif;
 }
 
 .btn-primary {
@@ -158,7 +163,7 @@ p {
 li {
   font-size: 1rem;
   text-align: left;
-  font-family: "avenir-next-lt-pro-regular";
+  font-family: "avenir-next-lt-pro-regular", sans-serif;
 }
 
 a:hover {
@@ -175,6 +180,12 @@ strong {
   font-size: 25px;
 }
 
+.dark-theme [class^="ti-"],
+.dark-theme [class*=" ti-"] {
+ color: #fff;
+}
+
+
 
 /* INTRODUCTION
 ----------------------*/
@@ -186,7 +197,7 @@ strong {
 }
 
 #intro {
-  margin-top: 50px;
+  padding-top: 50px;
 }
 
 @media (min-width:320px) {
@@ -220,7 +231,7 @@ strong {
     flex-wrap: wrap;
   }
   #intro, #project, #about {
-    margin-top: 90px;
+    padding-top: 90px;
   }
 
   button {
@@ -261,8 +272,12 @@ strong {
   #about p {
     font-size: 1.2rem;
   }
-}
 
+}
+.dark-theme #about{
+ background-color: #0d2538;
+ color: #fff;
+}
 /* CERTIFICATION
 ----------------------*/
 
@@ -373,9 +388,6 @@ strong {
 /* PROJECTS
 ----------------------*/
 
-.project {
-  min-width: 200px
-}
 
 .project-list li {
   margin-bottom: 20px;
@@ -524,6 +536,15 @@ strong {
   font-weight: bold;
 }
 
+.dark-theme #project, .dark-theme a{
+  background-color: #0d2538;
+  color: #fff;
+}
+
+.dark-theme .badge-secondary{
+  background-color: #000;
+  color: #fff;
+}
 
 
 
@@ -564,3 +585,9 @@ strong {
 
 /* FOOTER
 ----------------------*/
+.dark-theme .home, .dark-theme #intro, .dark-theme #about{
+  background-color: #0d2538;
+  color: #fff;
+}
+
+

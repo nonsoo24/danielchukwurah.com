@@ -31,7 +31,9 @@
 
             </div>
             <div class="col-md-6">
-              <img src="../assets/Img/DanielChukwurah.jpg" alt="DanielChukwurah" width="500" height="500">
+              <figure>
+                <img src="../assets/Img/DanielChukwurah.jpg" alt="DanielChukwurah" width="500" height="500">
+              </figure>
             </div>
           </div>
 

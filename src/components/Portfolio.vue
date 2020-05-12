@@ -7,54 +7,63 @@
         <side-navbar />
 
         <!-- Project Section -->
-        <section id="project" class="container">
-            <h2 class="pt-4 mb-5">Portfolio</h2>
+        <section id="project">
+             <div class="container">
+                 <h2 class="pt-4 mb-5">Portfolio</h2>
 
-           <div id="accordion">
+                 <div id="accordion">
 
-               <div class="mb-3"  v-for="(project, i) in projects" :key="i">
-                   <a :id= project.title  class="btn text-left btn-block border-bottom" data-toggle="collapse" :data-target = project.dataTarget
-                       :aria-expanded="true" :aria-controls = project.name role="button">
-                      <span class="h5">{{project.title}}</span>
-                        <span class="float-right">
-                            <i class="ti-angle-down"></i>
-                        </span>
+                     <div class="mb-3" v-for="(project, i) in projects" :key="i">
+                         <a :id=project.title class="btn text-left btn-block border-bottom" data-toggle="collapse"
+                             :data-target=project.dataTarget :aria-expanded="true" :aria-controls=project.name
+                             role="button">
+                             <span class="h5">{{project.title}}</span>
+                             <span class="float-right">
+                                 <i class="ti-angle-down"></i>
+                             </span>
 
-                   </a>
+                         </a>
 
-                   <div :id= project.name :class= project.class :aria-labelledby= project.name data-parent="#accordion">
-                       <div class="card-body">
-                           <div class="row">
-                               <div class="col-md-6 col-sm-6">
-                                   {{project.description}}
+                         <div :id=project.name :class=project.class :aria-labelledby=project.name
+                             data-parent="#accordion">
+                             <div class="card-body">
+                                 <div class="row">
+                                     <div class="col-md-6 col-sm-6">
+                                         {{project.description}}
 
-                                   <ul class="list-inline mb-0 mx-auto mt-4">
-                                                <li class="list-inline-item"><span
-                                                        class="badge badge-secondary badge-pill" v-for="(lang, i) in project.language"
-                                                    :key="i">{{project.language[i]}}</span>
-                                                </li>
-                                            </ul>
+                                         <ul class="list-inline mb-0 mx-auto mt-4">
+                                             <li class="list-inline-item"><span class="badge badge-secondary badge-pill"
+                                                     v-for="(lang, i) in project.language"
+                                                     :key="i">{{project.language[i]}}</span>
+                                             </li>
+                                         </ul>
 
                                          <ul class="list-inline mb-0 mx-auto mt-3 mb-3">
-                                             <a :href= project.link>
-                                                <li class="list-inline-item pr-2">Website
-                                                </li>
-                                                </a>
+                                             <a :href=project.link>
+                                                 <li class="list-inline-item pr-2">Website
+                                                 </li>
+                                             </a>
 
-                                                <a :href= project.github>
-                                                 <li class="list-inline-item">        Github
-                                                </li>
-                                                </a>
+                                             <a :href=project.github>
+                                                 <li class="list-inline-item"> Github
+                                                 </li>
+                                             </a>
                                          </ul>
-                                        <p>Ownership: {{project.ownership}}</p>
-                               </div>
-                               <div class="col-md-6 col-sm-6"><img :src = project.image :alt= project.alt width="500px" height="300px"></div>
-                           </div>
-                       </div>
-                   </div>
-               </div>
+                                         <p>Ownership: {{project.ownership}}</p>
+                                     </div>
+                                     <div class="col-md-6 col-sm-6">
+                                         <figure>
+                                             <img :src=project.image :alt=project.alt width="500px" height="300px">
+                                         </figure>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
 
-           </div>
+                 </div>
+
+             </div>
 
 
             <!-- <div class="project">

@@ -3,7 +3,7 @@
         <footer>
              <hr>
                 <div>
-                    <p class="text-center">&copy; {{ new Date().getFullYear() }} Daniel Chukwurah | All rights reserved.</p>
+                    <p class="text-center pb-1">&copy; {{ new Date().getFullYear() }} Daniel Chukwurah | All rights reserved.</p>
                 </div>
         </footer>
     </div>
@@ -15,8 +15,12 @@
 }
 
 .dark-theme footer{
-     background: #0d2538 !important;
+     background: #071521 !important;
      color: #fff;
+}
+
+p, hr{
+    margin: 0rem;
 }
 
 /* .list-group-item {

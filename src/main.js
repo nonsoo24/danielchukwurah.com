@@ -7,6 +7,15 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 Vue.config.productionTip = false
 
+export const eventBus = new Vue({
+  methods: {
+    closeBtn(){
+      this.$emit('close');
+    }
+  }
+});
+
+
 new Vue({
   router,
   render: h => h(App)

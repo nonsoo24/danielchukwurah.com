@@ -1,11 +1,11 @@
 <template>
-    <div>
+    <div class="portfolio">
         <!-- Navbar -->
         <nav-bar></nav-bar>
 
         <!-- side navbar -->
         <side-navbar />
-
+    <main>
         <!-- Project Section -->
         <section id="project">
              <div class="container">
@@ -226,7 +226,7 @@
                </div>
            </div> -->
         </section>
-
+    </main>
 
         <!-- Footer -->
         <the-footer></the-footer>
@@ -256,6 +256,7 @@ import NavBar from '@/components/NavBar.vue'
              this.projects.push(project);
          })
      },
+
 
     //  mounted(){
     //      $('.collapse').collapse()

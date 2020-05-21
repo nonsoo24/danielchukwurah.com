@@ -10,42 +10,24 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #000;
-   /* background-color: #E9E9E9; */
-  /* background-color: #f3f7f9 !important; */
+   min-height: 100vh;
 }
 
-/* .navbar, .navbar-toggler{
-  background-color: #E9E9E9;
-} */
-#nav {
-  padding: 30px;
-
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
 
 body {
   max-width: 100%;
   overflow-x: hidden;
+  min-height:100vh;
   /* overflow-y: hidden; */
 }
 
 body html{
    background-color: #f3f7f9 !important;
+   min-height:100vh !important;
 }
 
 .is-open {
   width: 200px !important;
 }
 
-#body, #body * {
-    transition: background 0.4s cubic-bezier(0.645, 0.045, 0.355, 1), background-color 0.4s cubic-bezier(0.645, 0.045, 0.355, 1), color 0.4s cubic-bezier(0.645, 0.045, 0.355, 1), border 0.4s cubic-bezier(0.645, 0.045, 0.355, 1), content 0.4s cubic-bezier(0.645, 0.045, 0.355, 1), transform 0.3s;
-}
 </style>

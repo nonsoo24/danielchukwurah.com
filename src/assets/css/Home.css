@@ -26,7 +26,7 @@
   font-family: 'Gilroy-Bold ☞';
   font-style: normal;
   font-weight: normal;
-  src: local('Gilroy-Bold ☞'), url('/assets/fonts/Gilroy-Bold.woff') format('woff');
+  src: url('/assets/fonts/Gilroy-Bold.woff') format('woff');
 }
 
 @font-face {
@@ -36,34 +36,6 @@
     url("/assets/fonts/AvenirNextLTPro-Regular.otf") format("truetype");
 }
 
-/* @font-face {
-  font-family: "avenir-next-lt-pro-italic";
-  src: url("/assets/fonts/AvenirNextLTPro-It.otf") format("woff"),
-      url("/assets/fonts/AvenirNextLTPro-It.otf") format("opentype"),
-      url("/assets/fonts/AvenirNextLTPro-It.otf") format("truetype");
-}
-
-@font-face {
-  font-family: "avenir-next-lt-pro-demi";
-  src: url("/assets/fonts/AvenirNextLTPro-Demi.otf") format("woff"),
-      url("/assets/fonts/AvenirNextLTPro-Demi.otf") format("opentype"),
-      url("/assets/fonts/AvenirNextLTPro-Demi.otf") format("truetype");
-}
-
-@font-face {
-  font-family: "avenir-next-lt-pro-demi-condensed";
-  src: url("/assets/fonts/AvenirNextLTPro-DemiCn.otf") format("woff"),
-      url("/assets/fonts/AvenirNextLTPro-DemiCn.otf") format("opentype"),
-      url("/assets/fonts/AvenirNextLTPro-DemiCn.otf") format("truetype");
-}
-
-@font-face {
-  font-family: "avenir-next-lt-pro-bold";
-  src: url("/assets/fonts/AvenirNextLTPro-Bold.otf") format("woff"),
-      url("/assets/fonts/AvenirNextLTPro-Bold.otf") format("opentype"),
-      url("/assets/fonts/AvenirNextLTPro-Bold.otf") format("truetype");
-} */
-
 
 body {
   background-color: #E9E9E9;
@@ -72,7 +44,7 @@ body {
 }
 
 .dark-theme{
-  background-color: #0d2538;
+  background-color: #071521;
   color: #fff;
  }
 
@@ -197,7 +169,7 @@ strong {
 }
 
 #intro {
-  padding-top: 50px;
+  padding: 70px 0px 30px 0px;
 }
 
 @media (min-width:320px) {
@@ -231,7 +203,7 @@ strong {
     flex-wrap: wrap;
   }
   #intro, #project, #about {
-    padding-top: 90px;
+    padding-top: 120px;
   }
 
   button {
@@ -274,10 +246,7 @@ strong {
   }
 
 }
-.dark-theme #about{
- background-color: #0d2538;
- color: #fff;
-}
+
 /* CERTIFICATION
 ----------------------*/
 
@@ -387,7 +356,9 @@ strong {
 
 /* PROJECTS
 ----------------------*/
-
+#project{
+  padding-bottom: 50px;
+}
 
 .project-list li {
   margin-bottom: 20px;
@@ -537,7 +508,7 @@ strong {
 }
 
 .dark-theme #project, .dark-theme a{
-  background-color: #0d2538;
+  background-color: #071521;
   color: #fff;
 }
 
@@ -585,9 +556,14 @@ strong {
 
 /* FOOTER
 ----------------------*/
-.dark-theme .home, .dark-theme #intro, .dark-theme #about{
-  background-color: #0d2538;
+.dark-theme .home, .dark-theme #intro, .dark-theme #about,
+.dark-theme .portfolio, .dark-theme .about{
+  background-color: #071521;
   color: #fff;
 }
+
+/* section {
+  min-height: 100vh; 
+} */
 
 

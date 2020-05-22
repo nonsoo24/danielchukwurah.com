@@ -45,7 +45,7 @@
 
                     <div class="col-md-6">
                         <figure>
-                            <img src="../assets/Img/Nonso-Chukwurah.jpg" alt="nonso-pic" width="500px">
+                            <img src="../../src/assets/Img/Nonso-Chukwurah.jpg" alt="nonso-pic" width="500px">
                         </figure>
                     </div>
 

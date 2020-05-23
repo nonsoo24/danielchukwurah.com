@@ -10,7 +10,7 @@
         <!-- About Section -->
         <section id="about">
             <div class="container pt-4">
-                <h2 class="mb-5">About</h2>
+                <h2>About</h2>
                 <div class="row">
 
                     <div class="col-md-6">
@@ -45,7 +45,7 @@
 
                     <div class="col-md-6">
                         <figure>
-                            <img src="../../src/assets/Img/Nonso-Chukwurah.jpg" alt="nonso-pic" width="500px">
+                            <img src="../../src/assets/Img/Nonso-Chukwurah.jpg" alt="nonso-pic">
                         </figure>
                     </div>
 
@@ -86,4 +86,4 @@ export default {
 }
 </script>
 
-<style src="../assets/css/Home.css" scoped></style>
+<style src="../assets/css/About.css" scoped></style>

@@ -12,7 +12,7 @@
         <div class="container">
           <!-- <h1>Hello! 👋</h1> -->
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm">
               <h1 class="pb-4">DANIEL CHUKWURAH</h1>
               <p>
                 Hi, I'm <strong>Daniel Nonso Chukwurah</strong>, but fondly called <b>Nonso.</b>
@@ -30,9 +30,9 @@
               </div>
 
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm">
               <figure>
-                <img src="../assets/Img/DanielChukwurah.jpg" alt="DanielChukwurah" width="500" height="500">
+                <img src="../assets/Img/DanielChukwurah.jpg" alt="DanielChukwurah">
               </figure>
             </div>
           </div>

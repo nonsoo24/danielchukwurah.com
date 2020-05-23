@@ -44,16 +44,13 @@
 }
 
 
-body {
+/* body {
   background-color: #E9E9E9;
   font-family: 'Rubik', sans-serif;
   position: relative;
-}
+} */
 
-.dark-theme{
-  background-color: #071521;
-  color: #fff;
- }
+
 
 h1 {
   font-size: 3rem;
@@ -363,203 +360,37 @@ strong {
 
 /* PROJECTS
 ----------------------*/
-#project{
-  padding-bottom: 50px;
-}
 
-.project-list li {
-  margin-bottom: 20px;
-  margin-top: 0;
-  list-style: none;
-}
-
-.project-list .project-card .top-row {
-  overflow: hidden;
-}
-
-.project-list .project-card .project-link {
-  overflow: hidden;
-  padding: 20px;
-  border-radius: 4px;
-}
-
-.project-list .project-card .project-details {
-  margin-left: 12px;
-  overflow: hidden;
-  margin-top: 7px;
-}
-
-.project-list .project-card .project-description {
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  overflow: hidden;
-  color: rgba(0, 0, 0, .55);
-  color: var(--text-secondary-color, rgba(0, 0, 0, .55));
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-  line-height: 20px;
-  max-height: 80px;
-}
-
-.project-card .project-link:visited {
-  color: rgba(0, 0, 0, .9);
-  /* color: var(--text-primary-color,rgba(0, 0, 0, .9)); */
-  text-decoration: none;
-}
-
-.project-link:hover {
-  text-decoration: none;
-}
-
-.project-link {
-  text-decoration: none;
-  color: #000;
-}
-
-.project-card {
-  position: relative;
-  transition: background-color .5s ease;
-  border-radius: 4px;
-  height: 220px;
-  min-width: 300px;
-  flex-basis: 300px;
-  /* margin-right: 20px; */
-  overflow: hidden;
-}
-
-/* .project-list .project-card{
-  flex-grow: 1;
-} */
-
-.badge-secondary{
-  background-color: #050552;
-}
-.project-content {
-  overflow: hidden;
-  padding: 5px;
-}
-
-.media img {
-  width: 40px;
-  height: 40px;
-}
-
-.project-details h3 {
-  font-size: 1.2rem;
-  font-weight: 600;
-}
-
-.project-language li {
-  list-style-type: none;
-  border: 1px solid #000;
-  text-decoration: none;
-  font-size: 12px;
-  padding: 0px 1.5px;
-  border-radius: 2px;
-
-}
-
-.card.features:before {
-  content: "";
-  position: absolute;
-  width: 3px;
-  color: rgb(5, 69, 65);
-  background: -moz-linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
-  background: -webkit-linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
-  background: (90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
-  top: 0;
-  bottom: 0;
-  left: 0;
-}
-
-.card.features {
-  border: 0;
-  border-radius: 3px;
-  /* box-shadow: 0px 5px 7px 0px rgba(121, 118, 118, 0.04); */
-  transition: all 0.3s ease;
-  background: #fff;
-  box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, .02), 1px 1px 15px 0 rgba(0, 0, 0, .03);
-}
-
-.card {
-  margin-top: 30px;
-}
-
-.card.features::after {
-  content: "";
-  border-radius: 5px;
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  opacity: 0;
-  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
-
-.card.features:hover {
-  -webkit-transform: scale(1, 1);
-  transform: scale(1, 1);
-}
-
-.card.features:hover::after {
-    opacity: 1;
-}
-
-.ti-angle-down{
-  font-size: 15px;
-  font-weight: bold;
-}
-
-.dark-theme #project, .dark-theme a{
-  background-color: #071521;
-  color: #fff;
-}
-
-.dark-theme .badge-secondary{
-  background-color: #000;
-  color: #fff;
-}
-
-
-
-/* CONTACT
-----------------------*/
-
-/* Social media icons */
-.social-media a span {
-  text-decoration: none;
-  color: #000;
-}
-
-
-#contact {
-  margin-top: 3rem;
-}
-
-#contact p {
-  font-size: 1.3rem;
-}
-
-@media (min-width:320px) {
-  #contact p {
-    font-size: 1rem;
+  /* CONTACT
+  ----------------------*/
+  
+  /* Social media icons */
+  .social-media a span {
+    text-decoration: none;
+    color: #000;
   }
-}
-
-@media (min-width:480px) {
-  #contact p {
-    font-size: 1.2rem;
+  
+  
+  #contact {
+    margin-top: 3rem;
   }
-}
-
-.features:hover{
-  box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, .02), 1px 1px 15px 0 rgba(0, 0, 0, .03);
-}
-
+  
+  #contact p {
+    font-size: 1.3rem;
+  }
+  
+  @media (min-width:320px) {
+    #contact p {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (min-width:480px) {
+    #contact p {
+      font-size: 1.2rem;
+    }
+  }
+  
 
 /* FOOTER
 ----------------------*/

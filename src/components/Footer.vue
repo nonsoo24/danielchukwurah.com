@@ -14,13 +14,19 @@
     background: #fff !important;
 }
 
+p, hr{
+    margin: 0rem;
+}
+
+@media (min-width:320px) {
+    p {
+        font-size: 0.8rem;
+    }
+}
+
 .dark-theme footer{
      background: #071521 !important;
      color: #fff;
-}
-
-p, hr{
-    margin: 0rem;
 }
 
 /* .list-group-item {

@@ -140,23 +140,50 @@ export default {
         box-shadow: 0rem, 0.25rem 0.625rem rgba(0, 0, 0, 0.25);
     }
 
-.feather  {
-    position: absolute;
-    top: 17px;
-    left: 40px;
-    cursor: pointer;
-}
+    .feather {
+        position: absolute;
+        top: 17px;
+        left: 40px;
+        cursor: pointer;
+    }
 
     input {
         position: absolute;
         opacity: 0;
         cursor: pointer;
         left: 43px;
-         top: 24px;
+        top: 24px;
     }
 
     input:checked~.checkmark:after {
         display: block;
+    }
+
+    @media (min-width:320px) {
+        .hambuger {
+            width: 80%;
+            height: 80%;
+        }
+
+         .feather {
+            position: absolute;
+            top: 17px;
+            left: 22px;
+            cursor: pointer;
+        }
+
+           /* .feather-moon,  .feather-sun  {
+           width: 30%;
+           height: 30%;
+        } */
+
+        input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+            left: 25px;
+            top: 24px;
+        }
     }
 
     .dark-theme .navbar {

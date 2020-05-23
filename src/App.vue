@@ -29,11 +29,6 @@ body html {
   color: #fff;
 }
 
-.dark-theme .home, .dark-theme #intro, .dark-theme #about,
-.dark-theme .portfolio, .dark-theme .about {
-  background-color: #071521;
-  color: #fff;
-}
 .is-open {
   width: 200px !important;
 }

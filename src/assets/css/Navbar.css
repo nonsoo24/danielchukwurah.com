@@ -1,0 +1,46 @@
+
+.ti-shine {
+    font-size: 30px;
+    color: #000;
+}
+
+.hambuger {
+    cursor: pointer;
+}
+
+nav {
+    height: 3.75rem;
+    background-color: #FFFFFF;
+    box-shadow: 0rem, 0.25rem 0.625rem rgba(0, 0, 0, 0.25);
+}
+
+.feather {
+    position: absolute;
+    top: 17px;
+    left: 40px;
+    cursor: pointer;
+}
+
+input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    left: 43px;
+    top: 24px;
+}
+
+input:checked~.checkmark:after {
+    display: block;
+}
+
+.dark-theme .navbar {
+    background-color: #071521;
+}
+
+.dark-theme #hambuger {
+    color: #fff;
+}
+
+.dark-theme .sun {
+    color: #fff;
+}

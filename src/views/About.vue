@@ -8,7 +8,7 @@
         <side-navbar />
 
         <!-- About Section -->
-        <section id="about">
+        <section id="about-section">
             <div class="container pt-4">
                 <h2>About</h2>
                 <div class="row">

@@ -11,9 +11,14 @@
       <Section id="intro">
         <div class="container">
           <!-- <h1>Hello! 👋</h1> -->
+          <div class="home-image">
+             <figure>
+                <img src="../assets/Img/DanielChukwurah.jpg" alt="DanielChukwurah">
+              </figure>
+          </div>
           <div class="row">
-            <div class="col-md-6 col-sm">
-              <h1 class="pb-4">DANIEL CHUKWURAH</h1>
+            <div class="col-md-6 col-sm-6">
+              <h1>DANIEL CHUKWURAH</h1>
               <p>
                 Hi, I'm <strong>Daniel Nonso Chukwurah</strong>, but fondly called <b>Nonso.</b>
               </p>
@@ -30,10 +35,10 @@
               </div>
 
             </div>
-            <div class="col-md-6 col-sm">
-              <figure>
+            <div class="col-md-6 col-sm-6 d-none d-sm-block" background-image>
+              <!-- <figure>
                 <img src="../assets/Img/DanielChukwurah.jpg" alt="DanielChukwurah">
-              </figure>
+              </figure> -->
             </div>
           </div>
         </div>

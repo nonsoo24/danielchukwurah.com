@@ -1,25 +1,6 @@
 @charset "UTF-8";
 
 
-
-/*------------------------
-[TABLE OF CONTENTS]
-
-1. GLOBAL STYLES
-2. NAVBAR
-3. INTRODUCTION
-4. ABOUT
-5. CERTIFICATION
-6. SKILLS
-7. PROJECTS
-8. CONTACT
-9. FOOTER
-
-------------------------*/
-
-
-
-
 /* GLOBAL
 ----------------------*/
 @font-face {
@@ -44,22 +25,13 @@
 }
 
 
-/* body {
-  background-color: #E9E9E9;
-  font-family: 'Rubik', sans-serif;
-  position: relative;
-} */
-
-
-
 h1 {
   font-size: 3rem;
   text-align: left;
   font-weight: 700;
   letter-spacing: -1px;
   font-family: "Gothic A1", sans-serif;
-  /* margin-bottom: 1.5rem; */
-  /* margin-top: 70px; */
+  padding: 100px 0px 50px 0px;
 }
 
 h2 {
@@ -70,12 +42,7 @@ h2 {
   /* letter-spacing: 3px; */
 }
 
-/* h2 {
-  margin-top: 1rem;
-  font-size: 0.8rem;
-  text-align: left;
-  margin-bottom: 1rem;
-} */
+
 h4 {
   font-size: 1.5rem;
   text-align: left;
@@ -95,46 +62,6 @@ p {
   font-family: "avenir-next-lt-pro-regular", sans-serif;
 }
 
-.btn-primary {
-  border-radius: 3px;
-  box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.2);
-  font-weight: 500;
-  padding: 1rem 2rem;
-  border: 0;
-  font-size: 1.5rem;
-  background-color: #000080;
-}
-
-.btn-primary:hover {
-  background: #FFF;
-  box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.3);
-  color: #000080 !important;
-  border: 1px solid #000080;
-}
-
-.box {
-  animation-duration: 3s;
-  animation-iteration-count: infinite
-}
-
-.bounce {
-  animation-name: bounce;
-  animation-timing-function: linear;
-}
-
-@keyframes bounce {
-  0% {
-    transform: translateY(0);
-  }
-
-  50% {
-    transform: translateY(10px);
-  }
-
-  100% {
-    transform: translateY(0);
-  }
-}
 
 li {
   font-size: 1rem;
@@ -156,15 +83,17 @@ strong {
   font-size: 25px;
 }
 
+
+.home-image  {
+  display: none;
+}
+
 .dark-theme [class^="ti-"],
 .dark-theme [class*=" ti-"] {
   color: #fff;
 }
 
 
-
-/* INTRODUCTION
-----------------------*/
 #intro p {
   font-size: 1rem;
   text-align: left;
@@ -176,7 +105,16 @@ strong {
   padding: 70px 0px 30px 0px;
 }
 
-@media (min-width:320px) {
+[background-image] {
+  height: 100vh;
+  background: url(../Img/DanielChukwurah.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+@media only screen and (min-width:320px) {
   #section-intro p {
     font-size: 1.2rem;
     text-align: left;
@@ -184,21 +122,39 @@ strong {
     line-height: 2.5rem;
   }
 
-  button {
-    text-align: left;
-    font-size: 1rem;
-    margin: 1rem 0rem 1.5rem 0rem;
-    /* border: 1px solid #000; */
+  .home-image  {
+    display: block ;
+  }
+
+  .home-image img {
+    width: 140%;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 2rem;
   }
 
 
-  .btn-primary {
-    padding: 1.1rem 1.5rem;
-    font-size: 1.2rem;
+  /* Themify */
+  [class^="ti-"],
+  [class*=" ti-"] {
+    font-size: 18px;
   }
 }
 
-@media (min-width:480px) {
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .home-image  {
+    display: block ;
+    width: 70%;
+    height: 70%;
+  }
+
   #intro p {
     font-size: 1.6rem;
     text-align: left;
@@ -213,138 +169,60 @@ strong {
     padding-top: 120px;
   }
 
+  .home-image  {
+    display: block;
+  }
+
   button {
     text-align: left;
     font-size: 1.2rem;
     margin: 1rem 0rem 2rem 0rem;
     /* border: 1px solid #000; */
   }
+
+
 }
 
-@media (min-width:1025px) {
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+  .home-image  {
+    display: block ;
+    width: 70%;
+    height: 70%;
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .home-image  {
+    display: none ;
+  }
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .home-image  {
+    display: none ;
+  }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
   #intro p {
     max-width: 700px;
     line-height: 3rem;
     font-size: 1.2rem;
   }
-}
-
-
-/* ABOUT
-----------------------*/
-
-/* CERTIFICATION
-----------------------*/
-
-.certification-list li {
-  text-decoration: none;
-  list-style-type: none;
-}
-
-.certification-list li a {
-  color: #000;
-  font-size: 1.3rem;
-}
-
-
-/* SKILLS
-----------------------*/
-#skills p {
-  font-size: 1.3rem;
-
-}
-
-#skills ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-.skill-category {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  margin-top: 30px;
-}
-
-.skill-category-label {
-  width: 80%;
-}
-
-#skills ul li {
-  text-decoration: none;
-  text-align: left;
-  /* margin: 3px 0px; */
-
-}
-
-@media (min-width:320px) {
-  #skills p {
-    font-size: 1rem;
-  }
-
-  .skill-category {
-    flex-wrap: wrap;
-  }
-
-  .skill-category-label {
-    width: 50%;
-  }
-
-  #skills ul li {
-    text-decoration: none;
-    text-align: left;
-  }
-
-}
-
-@media (min-width:480px) {
-  #skills p {
-    font-size: 1.2rem;
-  }
-
-  .skill-category {
-    flex-wrap: wrap;
-  }
-
-  .skill-category-label {
-    width: 50%;
-  }
-
-  #section-skills ul li {
-    text-decoration: none;
-    text-align: left;
-  }
 
 }
 
 
-@media (min-width:600px) {
-  #skills p {
-    font-size: 1rem;
-  }
-
-  .skill-category {
-    flex-wrap: nowrap;
-  }
-
-  /* .skill-category-label {
-    width: 50%;
-  }
-
-  #section-skills ul li {
-    text-decoration: none;
-    text-align: left;
-  } */
-
-}
-
-
-/* PROJECTS
-----------------------*/
 
 /* CONTACT
   ----------------------*/
@@ -374,4 +252,10 @@ strong {
   #contact p {
     font-size: 1.2rem;
   }
+}
+
+
+.dark-theme .home, .dark-theme #intro, .dark-theme #about-section, .dark-theme .portfolio, .dark-theme .about {
+  background-color: #071521;
+  color: #fff;
 }

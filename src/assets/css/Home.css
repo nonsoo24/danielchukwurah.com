@@ -36,6 +36,13 @@
     url("/assets/fonts/AvenirNextLTPro-Regular.otf") format("truetype");
 }
 
+@font-face {
+  font-family: "GothicA1";
+  src: url("/assets/fonts/GothicA1.ttf") format("woff"),
+    url("/assets/fonts/GothicA1.ttf") format("opentype"),
+    url("/assets/fonts/GothicA1.ttf") format("truetype");
+}
+
 
 body {
   background-color: #E9E9E9;
@@ -53,7 +60,7 @@ h1 {
   text-align: left;
   font-weight: 700;
   letter-spacing: -1px;
-  font-family: "Gilroy-Bold ☞", sans-serif;
+  font-family: "Gothic A1", sans-serif;
   /* margin-bottom: 1.5rem; */
   /* margin-top: 70px; */
 }

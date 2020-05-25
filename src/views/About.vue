@@ -15,10 +15,10 @@
 
                     <div class="col-md-6">
                         <p>
-                            I'm currently a Software Engineer at Sidmach Technologies Limited building enterprise web
+                            I currently work as a Software Engineer at Sidmach Technologies Limited building enterprise web
                             solutions
                             and
-                            softwares together with amazing teams for clients.
+                            softwares together with an amazing agile team for clients.
                         </p>
 
                         <p class="d-none">
@@ -36,7 +36,7 @@
                         </p>
 
                         <p>
-                            When I'm not coding you can find me surfing the internet, playing and watching football,
+                            When I'm not coding you can find me surfing the internet, playing or watching football,
                             playing
                             video
                             games, or hanging out with friends and family.
@@ -45,7 +45,7 @@
 
                     <div class="col-md-6">
                         <figure>
-                            <img src="../../src/assets/Img/Nonso-Chukwurah.jpg" alt="nonso-pic">
+                            <img src="../../src/assets/Img/Nonso-Chukwurah.webp" alt="nonso-pic">
                         </figure>
                     </div>
 

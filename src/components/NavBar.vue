@@ -109,6 +109,7 @@ export default {
     },
     methods: {
         toggle() {
+            //debugger
             let sideBar = document.getElementById("mySidenav");
             let closeBtn = document.querySelector(".closebtn");
             let hambuger = document.querySelector(".hambuger");
@@ -160,10 +161,10 @@ export default {
     }
 
     @media (min-width:320px) {
-        .hambuger {
+        /* .hambuger {
             width: 80%;
             height: 80%;
-        }
+        } */
 
          .feather {
             position: absolute;

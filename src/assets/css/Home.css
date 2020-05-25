@@ -133,7 +133,8 @@ strong {
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    padding: 0px 0px 20px 0px;
   }
 
 
@@ -147,7 +148,7 @@ strong {
 
 
 
-
+/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .home-image  {
     display: block ;
@@ -156,17 +157,15 @@ strong {
   }
 
   #intro p {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     text-align: left;
     max-width: 500px;
     line-height: 3rem;
     flex-wrap: wrap;
   }
 
-  #intro,
-  #project,
-  #about {
-    padding-top: 120px;
+  #intro {
+    padding-top: 60px;
   }
 
   .home-image  {
@@ -180,6 +179,11 @@ strong {
     /* border: 1px solid #000; */
   }
 
+  h1 {
+    font-size: 1.7rem;
+    padding: 0px 0px 20px 0px;
+  }
+
 
 }
 
@@ -191,6 +195,18 @@ strong {
     width: 70%;
     height: 70%;
   }
+
+  h1 {
+    font-size: 1.8rem;
+    padding: 120px 0px 50px 0px;
+  }
+
+  #intro p {
+    font-size: 1.3rem;
+    text-align: left;
+    max-width: 700px;
+    line-height: 2rem;
+}
 
 }
 

@@ -42,33 +42,37 @@ export default {
 
 <style>
      .sidenav {
-     height: 100%;
-     width: 0;
-     position: fixed;
-     z-index: 9999;
-     top: 0;
-     right: 0;
-     background-color: #fff;
-     /* box-shadow: 0 0 1px 2px #E2E2E2; */
-     /* opacity: 0.5; */
-     overflow-x: hidden;
-     transition: 0.5s;
-     padding-top: 73px;
+         height: 100%;
+         width: 0;
+         position: fixed;
+         z-index: 9999;
+         top: 0;
+         right: 0;
+         background-color: #fff;
+         /* box-shadow: 0 0 1px 2px #E2E2E2; */
+         /* opacity: 0.5; */
+         overflow-x: hidden;
+         transition: 0.5s;
+         padding-top: 73px;
      }
 
      .sidenav li {
-     text-decoration: none !important;
-     font-size: 1.2rem;
-     /* color: #818181; */
-     color: #000;
-     display: block;
-     transition: 0.3s;
-     text-align: left;
+         text-decoration: none !important;
+         font-size: 1.2rem;
+         /* color: #818181; */
+         color: #000;
+         display: block;
+         transition: 0.3s;
+         text-align: left;
+        /* list-style-type: circle !important; */
      }
 
      .sidenav li:hover {
-         color: #000;
          cursor: pointer;
+     }
+
+     .router-link-exact-active {
+         color: rgb(253, 179, 42) !important;
      }
 
      @media screen and (max-height: 450px) {
@@ -82,29 +86,29 @@ export default {
      }
 
      #mySidenav .navbar-nav .nav-link {
-     padding-left: 60px !important;
-     color: #000;
-     text-align: left;
-     font-weight: 700;
+         padding-left: 60px !important;
+         color: #000;
+         text-align: left;
+         font-weight: 700;
      }
 
      #mySidenav .navbar-nav .nav-link:hover {
-     color: rgb(253, 179, 42);
+         color: rgb(253, 179, 42);
      }
 
-    .closebtn {
-        font-size: 2rem;
-        display: none;
-        color: #000;
-        position: absolute;
-        right: 20px;
-        text-decoration: none
-    }
+     .closebtn {
+         font-size: 2rem;
+         display: none;
+         color: #000;
+         position: absolute;
+         right: 20px;
+         text-decoration: none
+     }
 
-    .closebtn:hover{
+     .closebtn:hover {
          text-decoration: none;
          color: rgb(253, 179, 42);
-    }
+     }
 
 /* #mySidenav .navbar-nav .nav-link:hover{
     border-bottom: 1px solid #000;

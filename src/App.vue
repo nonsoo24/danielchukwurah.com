@@ -24,13 +24,14 @@ body html {
   overflow-x: hidden;
 }
 
+
 .dark-theme body {
   background-color: #071521;
   color: #fff;
 }
 
 .is-open {
-  width: 200px !important;
+  width: 300px !important;
 }
 
 </style>

@@ -16,6 +16,8 @@
                 <img src="../assets/Img/DanielChukwurah.jpg" alt="DanielChukwurah">
               </figure>
           </div>
+
+
           <div class="row">
             <div class="col-md-6 col-sm-6">
               <h1>DANIEL CHUKWURAH</h1>

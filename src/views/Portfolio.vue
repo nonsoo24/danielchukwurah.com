@@ -31,9 +31,10 @@
                                         <div class="col-md-6 col-sm-6 description">
                                             {{project.description}}
 
-                                            <ul class="list-inline mb-0 mx-auto mt-4">
+                                            <ul class="list-inline mb-0 mx-auto mt-4 d-flex">
+                                                <h6 class="pr-2">Languages</h6>
                                                 <li class="list-inline-item"><span
-                                                        class="badge badge-secondary badge-pill"
+                                                        class="badge badge-secondary badge-pill mr-1"
                                                         v-for="(lang, i) in project.language"
                                                         :key="i">{{project.language[i]}}</span>
                                                 </li>

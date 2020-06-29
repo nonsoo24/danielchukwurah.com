@@ -32,7 +32,7 @@
                                             {{project.description}}
 
                                             <ul class="list-inline mb-0 mx-auto mt-4 d-flex">
-                                                <h6 class="pr-2">Languages</h6>
+                                                <h6 class="pr-2">Technologies</h6>
                                                 <li class="list-inline-item"><span
                                                         class="badge badge-secondary badge-pill mr-1"
                                                         v-for="(lang, i) in project.language"

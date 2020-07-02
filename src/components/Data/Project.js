@@ -75,7 +75,7 @@ export const projectList = [
         description: 'A platform where customers can insure their new phones. Major stakeholders in this project include phone distributors, stores and Insurance company',
         language: ['HTML', 'Javascript', 'CSS', 'Bootstrap', 'MSSQL'],
         ownership: 'Sidmach Technologies',
-        github: '#',
+        github: '',
         dataTarget: '#CinchIT',
         name: 'CinchIT',
         status: 'Development'

@@ -74,6 +74,18 @@ h2 {
 
 }
 
+.project a:hover {
+    background-color: #f3f6f8e0;
+}
+
+.dark-theme .project a:hover {
+    background-color: #000;
+}
+
+.project a {
+    color: #000;
+}
+
 @media (min-width:320px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ }
 @media (min-width:480px)  { /* smartphones, Android phones, landscape iPhone */ }
 @media (min-width:600px)  { /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }

@@ -40,14 +40,14 @@
                                                 </li>
                                             </ul>
 
-                                            <ul class="list-inline mb-0 mx-auto mt-3 mb-3">
-                                                <a :href=project.link>
-                                                    <li class="list-inline-item pr-2">Website
+                                            <ul class="list-inline mb-0 mx-auto mt-3 mb-3 project">
+                                                <a v-if="project.link != ''" :href=project.link>
+                                                    <li class="list-inline-item pr-2 website"> View
                                                     </li>
                                                 </a>
 
-                                                <a :href=project.github>
-                                                    <li class="list-inline-item"> Github
+                                                <a v-if="project.github != ''" :href=project.github>
+                                                    <li class="list-inline-item github"> Github
                                                     </li>
                                                 </a>
                                             </ul>
@@ -90,15 +90,31 @@ import NavBar from '@/components/NavBar.vue'
       'side-navbar': SideNavBar
     },
 
+    methods: {
+        toggle() {
+            debugger
+            let github = document.querySelector('.github')
+            let website = document.querySelector('.website')
+            this.projects.forEach((project, i) => {
+                if (project.github == "") {
+                    github.style.display = "none"
+                }
+                if (project.link == "") {
+                    website.style.display = "none"
+                }
+            })
+        }
+
+    },
+
      created() {
-         projectList.forEach(project => {
-             this.projects.push(project);
+         projectList.forEach((project) => {
+             this.projects.push(project)
          })
      },
 
-
-    //  mounted(){
-    //      $('.collapse').collapse()
+    //  mounted() {
+    //     this.toggle();
     //  }
  }
 </script>

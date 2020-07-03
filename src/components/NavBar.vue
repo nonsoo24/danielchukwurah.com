@@ -4,7 +4,7 @@
             <!-- toggle light and dark theme -->
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <input type="checkbox" id='theme-switch' v-model="checked">
+                    <input type="checkbox" id='theme-switch' v-model="checked" aria-label="theme-switch" name="theme-switch">
 
                     <label for='theme-switch'>
                         <svg v-if="checked === true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"

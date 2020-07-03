@@ -119,7 +119,7 @@ export const projectList = [
         title: 'Catholic Hymns',
         class:  'collapse',
         // image: require('../../assets/Img/SDG-min.webp'),
-        image: require('../../assets/Img/Catholic-mockup.webp'),
+        image: require('../../assets/Img/catholic-hymn-mockup.webp'),
         alt:   'catholic-hymn-mockup',
         link:  'https://catholic-hymns.netlify.app/',
         description: 'A collection of hymns sung at mass by Catholics',

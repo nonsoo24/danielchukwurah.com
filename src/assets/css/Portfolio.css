@@ -13,10 +13,19 @@ h2 {
     padding-bottom: 50px;
 }
 
-.badge-secondary {
+.badge-secondary, .btn-primary {
     background-color: #050552;
 }
-
+.btn-primary {
+    border: 1px solid #050552;
+    font-size: 12px;
+    font-weight: 700;
+}
+.btn-primary:hover {
+    background-color: #fff;
+    color: #050552;
+    border: 1px solid #050552;
+}
 .ti-angle-down {
     font-size: 15px;
     font-weight: bold;
@@ -102,7 +111,19 @@ h2 {
     color: #fff;
 }
 
-.dark-theme .badge-secondary {
+.dark-theme .badge-secondary, .dark-theme .badge-primary {
     background-color: #000;
     color: #fff;
+}
+
+.dark-theme .btn-primary {
+    border: 1px solid #000;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #000;
+}
+.dark-theme .btn-primary:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
 }

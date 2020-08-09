@@ -42,12 +42,12 @@
 
                                             <ul class="list-inline mb-0 mx-auto mt-3 mb-3 project">
                                                 <a v-if="project.link != ''" :href=project.link>
-                                                    <li class="list-inline-item pr-2 website"> View
+                                                    <li class="list-inline-item mr-3 website btn btn-primary"> View
                                                     </li>
                                                 </a>
 
                                                 <a v-if="project.github != ''" :href=project.github>
-                                                    <li class="list-inline-item github"> Github
+                                                    <li class="list-inline-item github btn btn-primary"> Github
                                                     </li>
                                                 </a>
                                             </ul>

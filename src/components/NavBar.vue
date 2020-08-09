@@ -161,10 +161,10 @@ export default {
     }
 
     @media (min-width:320px) {
-        /* .hambuger {
-            width: 80%;
-            height: 80%;
-        } */
+        .hambuger {
+            width: 70%;
+            height: 70%;
+        }
 
          .feather {
             position: absolute;
@@ -172,7 +172,6 @@ export default {
             left: 22px;
             cursor: pointer;
         }
-
            /* .feather-moon,  .feather-sun  {
            width: 30%;
            height: 30%;
@@ -186,7 +185,26 @@ export default {
             top: 24px;
         }
     }
+@media (min-width:480px)  {
+     .hambuger {
+            width: 50%;
+            height: 50%;
+        }
+}
 
+@media (min-width:600px)  {
+     .hambuger {
+            width: 60%;
+            height: 60%;
+        }
+}
+
+@media (min-width:801px)  {
+     .hambuger {
+            width: 80%;
+            height: 80%;
+        }
+}
     .dark-theme .navbar {
         background-color: #071521;
     }

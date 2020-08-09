@@ -1,5 +1,9 @@
 # portfolio-site
 
+```
+Daniel's personal website
+```
+
 ## Project setup
 ```
 npm install

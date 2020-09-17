@@ -72,7 +72,7 @@ export const projectList = [
         alt:   'CinchIT-mockup',
         // link:  ' https://mobileinsure.azurewebsites.net',
         link: 'https://cinchit.netlify.com/',
-        description: 'A platform where customers can insure their new phones. Major stakeholders in this project include phone distributors, stores and Insurance company',
+        description: 'A platform where customers can buy insurance policy for their new phones. Major stakeholders in this project include phone distributors, stores and Insurance company',
         language: ['HTML', 'Javascript', 'CSS', 'Bootstrap', 'MSSQL'],
         ownership: 'Sidmach Technologies',
         github: '',

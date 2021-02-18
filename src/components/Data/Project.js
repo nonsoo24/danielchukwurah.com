@@ -68,7 +68,7 @@ export const projectList = [
         id: '5',
         title: 'MeSure',
         class:  'collapse',
-        image: require('../../assets/Img/CinchIT-mockup.webp'),
+        image: require('../../assets/Img/meSure.webp'),
         alt:   'CinchIT-mockup',
         // link:  ' https://mobileinsure.azurewebsites.net',
         link: 'https://mesure.com.ng',

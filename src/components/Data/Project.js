@@ -66,12 +66,12 @@ export const projectList = [
 
     {
         id: '5',
-        title: 'Cinch IT',
+        title: 'MeSure',
         class:  'collapse',
         image: require('../../assets/Img/CinchIT-mockup.webp'),
         alt:   'CinchIT-mockup',
         // link:  ' https://mobileinsure.azurewebsites.net',
-        link: 'https://cinchit.netlify.com/',
+        link: 'https://mesure.com.ng',
         description: 'A platform where customers can buy insurance policy for their new phones. Major stakeholders in this project include phone distributors, stores and Insurance company',
         language: ['HTML', 'Javascript', 'CSS', 'Bootstrap', 'MSSQL'],
         ownership: 'Sidmach Technologies',

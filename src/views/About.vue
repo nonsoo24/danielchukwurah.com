@@ -28,7 +28,7 @@
                         </p>
 
                         <p>
-                            As a Software Engineer, I'm passionate about building softwares that are accessible, have
+                            As a Software Developer, I'm passionate about building softwares that are accessible, have
                             good
                             user
                             experience, good designs,

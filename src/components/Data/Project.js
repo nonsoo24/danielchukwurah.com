@@ -160,42 +160,48 @@ export const socialMediaList = [
         id: '1',
         name: 'Facebook',
         link: 'https://web.facebook.com/nonsochukwura',
-        class: 'ti-facebook mr-3 ti-3x'
+        class: 'ti-facebook mr-3 ti-3x',
+        label: "View Nonso's Facebook Profile"
     },
 
     {
         id: '2',
         name: 'Instagram',
         link: 'https://www.instagram.com/danielchukwura/?hl=en',
-        class: 'ti-instagram mr-3 ti-3x'
+        class: 'ti-instagram mr-3 ti-3x',
+        label: "View Nonso's Instagram Profile"
     },
 
     {
         id: '3',
         name: 'Twitter',
         link: 'https://twitter.com/dani_chuks',
-        class: 'ti-twitter-alt mr-3 ti-3x'
+        class: 'ti-twitter-alt mr-3 ti-3x',
+        label: "View Nonso's Twitter Profile"
     },
 
     {
         id: '4',
         name: 'Linkedin',
         link: 'https://linkedin.com/in/daniel-chukwurah',
-        class: 'ti-linkedin mr-3 ti-3x'
+        class: 'ti-linkedin mr-3 ti-3x',
+        label: "View Nonso's LinkedIn Profile"
     },
 
     {
         id: '5',
         name: 'Github',
         link: 'https://github.com/nonsoo24',
-        class: 'ti-github mr-3 ti-3x'
+        class: 'ti-github mr-3 ti-3x',
+        label: "View Nonso's Github Projects"
     },
 
     {
         id: '6',
         name: 'Mail',
         link: 'mailto:daniel.chukwurah@gmail.com',
-        class: 'ti-email mr-3 ti-3x'
+        class: 'ti-email mr-3 ti-3x',
+        label: "Send Nonso a mail"
     }
 
 ]

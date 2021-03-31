@@ -24,14 +24,12 @@
               <p>
                 Hi, I'm <strong>Daniel Nonso Chukwurah</strong>, but fondly called <b>Nonso.</b>
               </p>
-              <p class="pt-2"> I'm a Software Engineer based in Lagos, Nigeria. I am
+              <p class="pt-2"> I'm a Software Developer based in Lagos, Nigeria. I am
                 passionate about
-                building scalable web applications and software with good user experience and accessibility that meets
-                business goals.
-                </p>
+                building scalable web applications and software with good user experience and accessibility that solves business problems and transform lives              </p>
               <div class="social-media pt-4">
                 <p class="text-sm"> <u> Say hi</u></p>
-                <a v-for="(socialMedia, i) in socialMediaHandles" :key="i" :href=socialMedia.link>
+                <a v-for="(socialMedia, i) in socialMediaHandles" :key="i" :href=socialMedia.link :aria-label= socialMedia.label>
                   <span :class=socialMedia.class></span>
                 </a>
               </div>

@@ -13,7 +13,7 @@
           <!-- <h1>Hello! 👋</h1> -->
           <div class="home-image">
              <figure>
-                <img src="../assets/Img/Chukwurah-Daniel-Nonso.webp" alt="DanielChukwurah">
+                <img src="../assets/Img/Chukwurah-Daniel-Nonso.webp" alt="Daniel Chukwurah picture">
               </figure>
           </div>
 

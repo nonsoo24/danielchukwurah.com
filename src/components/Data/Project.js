@@ -137,7 +137,7 @@ export const projectList = [
         alt:   '',
         link:  'https://bsr.afrinvest.com/',
         description: 'A simple web app that allows users purchase the Afrinvest annual Banking Sector Report (BSR).',
-        language: ['Vue JS', 'NutJS', 'Tailwind CSS', 'Javascript'],
+        language: ['Vue JS', 'Nuxt JS', 'Tailwind CSS', 'Javascript'],
         ownership: 'Afrinvest West Africa Limited',
         github: '',
         dataTarget: '#afrinvestBSR',

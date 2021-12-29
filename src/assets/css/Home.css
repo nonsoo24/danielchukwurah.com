@@ -84,7 +84,7 @@ strong {
 }
 
 
-.home-image  {
+.home-image {
   display: none;
 }
 
@@ -122,8 +122,8 @@ strong {
     line-height: 2.5rem;
   }
 
-  .home-image  {
-    display: block ;
+  .home-image {
+    display: block;
   }
 
   .home-image img {
@@ -150,8 +150,8 @@ strong {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .home-image  {
-    display: block ;
+  .home-image {
+    display: block;
     width: 70%;
     height: 70%;
   }
@@ -168,7 +168,7 @@ strong {
     padding-top: 60px;
   }
 
-  .home-image  {
+  .home-image {
     display: block;
   }
 
@@ -190,8 +190,8 @@ strong {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
-  .home-image  {
-    display: block ;
+  .home-image {
+    display: block;
     width: 70%;
     height: 70%;
   }
@@ -206,14 +206,14 @@ strong {
     text-align: left;
     max-width: 700px;
     line-height: 2rem;
-}
+  }
 
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-  .home-image  {
-    display: none ;
+  .home-image {
+    display: none;
   }
 
 
@@ -221,8 +221,8 @@ strong {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-  .home-image  {
-    display: none ;
+  .home-image {
+    display: none;
   }
 
 }
@@ -271,7 +271,22 @@ strong {
 }
 
 
-.dark-theme .home, .dark-theme #intro, .dark-theme #about-section, .dark-theme .portfolio, .dark-theme .about {
+.dark-theme .home,
+.dark-theme #intro,
+.dark-theme #about-section,
+.dark-theme .portfolio,
+.dark-theme .about {
   background-color: #071521;
   color: #fff;
+}
+
+.link {
+  color: #212529;
+  text-decoration: underline;
+}
+
+
+.link:hover {
+  font-weight: 600;
+  text-decoration: underline;
 }

@@ -30,9 +30,20 @@
                 building scalable web applications and software with good user experience and accessibility that solves business problems and transform lives
               </p>
               <div class="social-media pt-4">
-                <p class="text-sm">
-                  <u>Say hi</u>
-                </p>
+                <div class="d-flex">
+                  <!-- <p class="text-sm">
+                    <u>Say hi</u>
+                  </p>-->
+
+                  <p class="text-sm">
+                    <a
+                      class="text-sm link"
+                      href="https://calendly.com/daniel-chukwurah"
+                      target="_blank"
+                    >Contact Me</a>
+                  </p>
+                </div>
+
                 <a
                   v-for="(socialMedia, i) in socialMediaHandles"
                   :key="i"

@@ -214,7 +214,7 @@ export const certificationList = [
 
 ]
 
-export const socialMediaList = [
+export const socialMediaHandles = [
     {
         id: '1',
         name: 'Facebook',

@@ -73,15 +73,12 @@
 import NavBar from "@/components/NavBar.vue";
 import Footer from "@/components/Footer.vue";
 import SideNavBar from "@/components/SideNavBar.vue";
+import { socialMediaHandles } from "../data.js";
 
-import { socialMediaList } from "@/components/Data/Project.js";
-// import {certificationList} from '@/components/Api/Project.js'
 export default {
   data() {
     return {
-      //projects: [],
-      socialMediaHandles: [],
-      // certifications: []
+      socialMediaHandles,
       languages: ["HTML", "CSS", "Javascript (ES6)", "SQL", "Python"],
       frameworks: ["Vue", "Vuetify", "Node", ".Net"],
       databases: ["MSSQL", "MongoDB"],
@@ -100,20 +97,6 @@ export default {
     "nav-bar": NavBar,
     "the-footer": Footer,
     "side-navbar": SideNavBar,
-  },
-
-  created() {
-    // projectList.forEach(project => {
-    //     this.projects.push(project);
-    // })
-
-    socialMediaList.forEach((socialMedia) => {
-      this.socialMediaHandles.push(socialMedia);
-    });
-
-    // certificationList.forEach(certification => {
-    //     this.certifications.push(certification);
-    // })
   },
 };
 </script>

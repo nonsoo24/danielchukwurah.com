@@ -40,7 +40,7 @@
                       class="text-sm link"
                       href="https://calendly.com/daniel-chukwurah"
                       target="_blank"
-                    >Contact Me</a>
+                    >Book a session</a>
                   </p>
                 </div>
 

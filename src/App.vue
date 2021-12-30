@@ -1,16 +1,14 @@
 <template>
   <div id="app">
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* color: #000; */
-  /* min-height: 100vh; */
 }
 
 * {
@@ -24,7 +22,6 @@ body html {
   overflow-x: hidden;
 }
 
-
 .dark-theme body {
   background-color: #071521;
   color: #fff;
@@ -33,5 +30,4 @@ body html {
 .is-open {
   width: 300px !important;
 }
-
 </style>

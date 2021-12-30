@@ -285,6 +285,14 @@ strong {
   text-decoration: underline;
 }
 
+.dark-theme .link {
+  color: #fff;
+}
+
+.dark-theme .link:hover {
+  font-weight: 600;
+  text-decoration: underline;
+}
 
 .link:hover {
   font-weight: 600;

@@ -47,11 +47,14 @@ img {
     #about-section p {
         font-size: 1.2rem;
     }
-
 }
 
 .dark-theme #about-section,
 .dark-theme .about {
     background-color: #071521;
     color: #fff;
+}
+
+#about-section {
+    margin-bottom: 15rem;
 }

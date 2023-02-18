@@ -20,6 +20,8 @@ body html {
   background-color: #f3f7f9 !important;
   min-height: 100vh !important;
   overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .dark-theme body {

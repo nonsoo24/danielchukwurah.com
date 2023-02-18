@@ -13,8 +13,8 @@
         <div class="row">
           <div class="col-md-6">
             <p>
-              I currently work as a Frontend/Mobile Developer at Afrinvest West Africa Limited were I build enterprise web and mobile
-              solutions together with an amazing agile team for users.
+              I currently work as a Web and Mobile Developer at Afrinvest West Africa Limited were I build enterprise web and mobile
+              solutions together with an amazing agile team for users for diverse users.
             </p>
 
             <p class="d-none">
@@ -24,8 +24,8 @@
             </p>
 
             <p>
-              As a Frontend Developer, I'm passionate about building softwares that are accessible, have
-              good user experience, good designs, and test driven.
+              As a Frontend Developer, I'm passionate about building softwares that are scalable, accessible, have
+              good user experience, and test driven.
             </p>
 
             <p>
@@ -36,7 +36,7 @@
 
           <div class="col-md-6">
             <figure>
-              <img src="../../src/assets/Img/Nonso-Chukwurah.webp" alt="nonso-picture" />
+              <img src="../../src/assets/Img/Dan-Chuks.webp" alt="nonso-picture" width="" />
             </figure>
           </div>
         </div>

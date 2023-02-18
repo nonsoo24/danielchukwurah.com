@@ -12,7 +12,7 @@
           <!-- <h1>Hello! 👋</h1> -->
           <div class="home-image">
             <figure>
-              <img src="../assets/Img/Chukwurah-Daniel-Nonso.webp" alt="Daniel Chukwurah picture" />
+              <img src="../assets/Img/Daniel-Chukwurah.webp" alt="Daniel Chukwurah picture" />
             </figure>
           </div>
 
@@ -27,7 +27,7 @@
               <p class="pt-2">
                 I'm a Frontend Developer based in Lagos, Nigeria. I am
                 passionate about
-                building scalable web applications and software with good user experience and accessibility that solves business problems and transform lives
+                building scalable web and mobile applications with good user and accessibility experience that solves business problems and transform lives
               </p>
               <div class="social-media pt-4">
                 <div class="d-flex">

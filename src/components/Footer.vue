@@ -12,6 +12,7 @@
 <style scoped>
     footer {
     background: #fff !important;
+    margin-top: auto;
 }
 
 p, hr{

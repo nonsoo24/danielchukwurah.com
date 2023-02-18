@@ -81,21 +81,21 @@ export const portfolios = [
         status: 'Development'
     },
 
-    {
-        id: '6',
-        title: 'COVID-19 Estimator',
-        class:  'collapse',
-        image: require('./assets/Img/COVID-19-mockup.webp'),
-        alt:   'COVID-19-mockup',
-        link:  'https://covid-19-infections-estimator.netlify.com/',
-        description: 'Cohort-1 assessment test for the Build for SDG challenge 2020 powered by Andela and Facebook Developer Circles. The assessement empowers me to attempt helping society and leaders prepare for the  real big problem of COVID-19, which has had impact on lives, health, systems, supply chains, and the economy',
-        language: ['HTML', 'Javascript', 'CSS', 'Bootstrap'],
-        ownership: 'Personal',
-        github: 'https://github.com/nonsoo24/covid-19-estimator-UI',
-        dataTarget: '#covid',
-        name: 'covid',
-        status: ''
-    },
+    // {
+    //     id: '6',
+    //     title: 'COVID-19 Estimator',
+    //     class:  'collapse',
+    //     image: require('./assets/Img/COVID-19-mockup.webp'),
+    //     alt:   'COVID-19-mockup',
+    //     link:  'https://covid-19-infections-estimator.netlify.com/',
+    //     description: 'Cohort-1 assessment test for the Build for SDG challenge 2020 powered by Andela and Facebook Developer Circles. The assessement empowers me to attempt helping society and leaders prepare for the  real big problem of COVID-19, which has had impact on lives, health, systems, supply chains, and the economy',
+    //     language: ['HTML', 'Javascript', 'CSS', 'Bootstrap'],
+    //     ownership: 'Personal',
+    //     github: 'https://github.com/nonsoo24/covid-19-estimator-UI',
+    //     dataTarget: '#covid',
+    //     name: 'covid',
+    //     status: ''
+    // },
 
     // {
     //     id: '7',
@@ -117,7 +117,7 @@ export const portfolios = [
         title: 'Afrinvest',
         class:  'collapse show',
         image: require('./assets/Img/afrinvest.webp'),
-        alt:   '',
+        alt:   'Afrinvest',
         link:  'https://www.afrinvest.com/',
         description: 'A website about Afrinvest West Africa Limited, its products and services',
         language: ['HTML', 'CSS', 'Bootstrap', 'Javascript'],
@@ -133,15 +133,15 @@ export const portfolios = [
         title: 'Afrinvestor',
         class:  'collapse',
         image: require('./assets/Img/afrinvestor.webp'),
-        alt:   '',
-        link:  '',
+        alt:   'Afrinvestor',
+        link:  'https://apps.apple.com/ng/app/afrinvestor-2-0/id6443647645',
         description: 'A mobile application that helps investors build wealth. It allows them to invest in Nigeria stocks, Treasury bills, FGN Bonds, Commercial Papers, and Afrinvest products with as low as ₦1,000. Visit the Google play store or IOS store to get the app',
-        language: ['React Native Expo', 'Typescript', 'Redux Tool kit', 'RTK Query', 'React Native Paper'],
+        language: ['React Native Expo', 'Typescript', 'Redux Tool kit', 'RTK Query', 'React Native Paper', 'EAS'],
         ownership: 'Afrinvest West Africa Limited',
         github: '',
         dataTarget: '#afrinvestor',
         name: 'afrinvestor',
-        status: 'Development'
+        status: ''
     },
     {
         id: '9',
@@ -165,7 +165,7 @@ export const portfolios = [
         // image: require('/assets/Img/SDG-min.webp'),
         image: '',
         alt:   '',
-        link:  'https://udara360.netlify.app',
+        link:  'https://sandbox-cba.udara360.io/login',
         description: 'A core banking application that allows banks carry out core banking activities and integrate with other banking services',
         language: ['Vue JS', 'CSS', 'SASS', 'Javascript', 'Bootstrap Vue', 'Git', 'Netlify'],
         ownership: 'Fintellia Technologies Limited',
@@ -174,22 +174,36 @@ export const portfolios = [
         name: 'fintellia',
         status: ''
     },
+    // {
+    //     id: '11',
+    //     title: 'Catholic Hymns',
+    //     class:  'collapse',
+    //     image: require('./assets/Img/catholic-hymn-mockup.webp'),
+    //     alt:   'catholic-hymn-mockup',
+    //     link:  'https://catholic-hymns.netlify.app/',
+    //     description: 'A collection of hymns sung at mass by Catholics',
+    //     language: ['HTML', 'CSS', 'Tailwind CSS', 'Vue JS', 'node', 'mongoDB'],
+    //     ownership: 'Personal',
+    //     github: 'https://github.com/nonsoo24/catholic-hymns',
+    //     dataTarget: '#catholic',
+    //     name: 'catholic',
+    //     status: 'Development'
+    // },
     {
-        id: '11',
-        title: 'Catholic Hymns',
+        id: '12',
+        title: 'Optimus by Afrinvest',
         class:  'collapse',
-        image: require('./assets/Img/catholic-hymn-mockup.webp'),
-        alt:   'catholic-hymn-mockup',
-        link:  'https://catholic-hymns.netlify.app/',
-        description: 'A collection of hymns sung at mass by Catholics',
-        language: ['HTML', 'CSS', 'Tailwind CSS', 'Vue JS', 'node', 'mongoDB'],
+        image: require('./assets/Img/optimus.webp'),
+        alt:   'optimus by afrinvest mockup',
+        link:  'https://play.google.com/store/apps/details?id=com.optimusng.mobile',
+        description: 'Optimus harmonizes your banking, wealth management and brokerage needs into one simple platform. Optimus is a multi-platform application and it is available on iOS, Android, and the WEB serving both local and international audiences without any limitations.',
+        language: ['React Native (Bare workflow)', 'JavaScript', 'React Query', 'React Native Paper'],
         ownership: 'Personal',
-        github: 'https://github.com/nonsoo24/catholic-hymns',
-        dataTarget: '#catholic',
-        name: 'catholic',
-        status: 'Development'
+        github: '',
+        dataTarget: '#optimus',
+        name: 'optimus',
+        status: ''
     }
-
 ]
 
 
